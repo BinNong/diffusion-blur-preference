@@ -1289,22 +1289,21 @@ remain necessary.
 
 \section*{Data and Code Availability}
 
-The local reproducibility package comprises sweep scripts, criteria recorded before the
+The reproducibility package comprises sweep scripts, criteria recorded before the
 corresponding runs, offline judges, raw JSON results, figure scripts, and the image-pool
 provenance described in Section~\ref{sec:pools}. It includes the full-FFT audit, ADM VP-ODE
 adapter, direct score optimiser, saved endpoint images, verbatim Rademacher probes, endpoint
 replications, and official checkpoint source/hash manifests; retired reduced-grid outputs remain
-unchanged for auditability. Self-reported timestamps and source-file md5 digests are included in
-the research log; post-hoc analyses are labelled separately. A local, non-public archive
-\texttt{results/review2\_reproducibility.zip} and its SHA-256 manifest include the official EDM
-source, environment versions, EDM/ADM checkpoint hashes, image indices, raw results, and
-execution commands, but no model weights or credentials.
-Executable guards in \texttt{repro/validate\_review2\_physics.py} check all eight reference
-kernels and 69 raw synthetic-operator rows for symmetry/normalisation, conjugate-complete
-coordinates, and Parseval consistency. These artefacts improve local auditability but do not
-replace independent access. \textbf{An anonymised public repository URL and immutable archive
-identifier remain to be inserted before submission.} No public link is claimed until those
-artefacts are published by the authors.
+unchanged for auditability. Self-reported timestamps and source-file digests are included in the
+research log; post-hoc analyses are labelled separately. The public repository is
+\url{https://github.com/BinNong/diffusion-blur-preference}; the immutable release is
+\url{https://github.com/BinNong/diffusion-blur-preference/releases/tag/v1.0.1}, archived at
+Zenodo under \url{https://doi.org/10.5281/zenodo.24279314}. The SHA-256 manifest includes
+official source, environment versions, EDM/ADM checkpoint hashes, image indices, raw results,
+and execution commands, but no model weights or credentials. Executable guards in
+\texttt{repro/validate\_review2\_physics.py} check all eight reference kernels and 69 raw
+synthetic-operator rows for symmetry/normalisation, conjugate-complete coordinates, and Parseval
+consistency.
 
 \bibliographystyle{IEEEtran}
 \bibliography{refs}

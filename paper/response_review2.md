@@ -74,13 +74,15 @@
 
 ## Major 7：代码与实验数据可复现性
 
-**回应：本地复现包已完成；公开 URL/DOI 仍需作者发布。**
+**回应：源码、原始结果、不可变 Release 和 Zenodo DOI 均已公开。**
 
-- `results/review2_reproducibility.zip` 与 `review2_repro_manifest.json` 包含源码、原始 JSON、日志、环境版本、图像索引、随机探针和检查点哈希；不含模型权重或凭据。
-- 实际环境：`review2_environment.txt`；EDM/ADM 权重 SHA-256 已固定。
-- `validate_review2_physics.py` 已实跑通过8个参考核及69条原始合成记录的归一化、中心对称、共轭权重、滤波和 Parseval 守卫。
-- score 端点图像和四探针原始结果、原始探针向量均已保存。
-- **匿名公开仓库 URL 与不可变 DOI 不能由本地归档代替，必须由作者账号发布。**
+- 公开仓库：https://github.com/BinNong/diffusion-blur-preference
+- 不可变 Release：https://github.com/BinNong/diffusion-blur-preference/releases/tag/v1.0.1
+- Zenodo DOI：https://doi.org/10.5281/zenodo.24279314
+- 源码归档与 `results/review2_repro_manifest.json` 包含源码、原始 JSON、日志、环境版本、图像索引、随机探针和检查点哈希；不含模型权重或凭据。
+- 实际环境：`results/review2_environment.txt`；EDM/ADM 权重 SHA-256 已固定。
+- `repro/validate_review2_physics.py` 已实跑通过8个参考核及69条原始合成记录的归一化、中心对称、共轭权重、滤波和 Parseval 守卫。
+- score 端点图像和四探针原始结果、原始探针向量均已保存并公开。
 
 ## Minor 1：full-FFT 坐标下的主要缩放律
 
@@ -104,4 +106,4 @@ ADM 表同时报告 Λ 和 Λ/N，N=3HW，单位为每标量强度 nats。
 
 ## 尚未由本轮实验消除的外部限制
 
-真实 FFHQ、更大自然图像集合、受控跨架构/分辨率比较、统一形状机制、更大直接优化与全局收敛、有效复原收益仍未建立。公开匿名仓库和永久 DOI 需要作者执行发布。
+真实 FFHQ、更大自然图像集合、受控跨架构/分辨率比较、统一形状机制、更大直接优化与全局收敛、有效复原收益仍未建立。公开仓库、不可变 Release 和永久 DOI 已提供。

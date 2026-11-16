@@ -2,7 +2,8 @@
 
 Run with system Python: python3 repro/build_review2_manifest.py
 The manifest records hashes, not file contents. Model checkpoints, credentials, VCS metadata,
-server connection notes, and generated caches are excluded. Public URL/DOI fields remain null.
+server connection notes, and generated caches are excluded. Public URL/DOI fields identify the
+published GitHub release and Zenodo archive.
 """
 
 import argparse
@@ -89,8 +90,11 @@ def main():
         "checkpoint_hashes": ["results/review2_edm_checkpoint_sha256.txt",
                               "results/external_assets.json"],
         "image_provenance": ["results/bsds300_real_manifest.json", "repro/make_pool.py"],
-        "public_archive": {"url": None, "doi": None, "published": False,
-                           "note": "Local manifest only; publication requires author action."},
+        "public_archive": {
+            "url": "https://github.com/BinNong/diffusion-blur-preference",
+            "release": "https://github.com/BinNong/diffusion-blur-preference/releases/tag/v1.0.1",
+            "doi": "10.5281/zenodo.24279314", "published": True,
+            "note": "Published GitHub source release and permanent Zenodo archive."},
         "exclusions": sorted(EXCLUDED_NAMES),
         "notes": ["No model checkpoint or credential is included.",
                   "Server-local absolute pool paths must be replaced by the documented pool build.",

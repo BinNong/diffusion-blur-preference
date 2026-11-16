@@ -56,7 +56,7 @@ The study does not establish real-FFHQ validity, cross-architecture or cross-res
 
 - The manuscript is original and has not been published or submitted elsewhere.
 - All authors have approved the manuscript and agree with its submission.
-- The reproducibility package contains scripts, criteria, judges, raw results, figure sources, image indices, random seeds, and checkpoint hashes. Pre-registration records and post-hoc analyses are labelled separately. A local archive `results/review2_reproducibility.zip` and SHA-256 manifest have passed integrity and exclusion checks; executable guards cover all eight reference kernels and 69 raw synthetic-operator rows. No model weights or credentials are included. An anonymised public repository URL and immutable archive identifier must still be inserted before submission.
+- The reproducibility package contains scripts, criteria, judges, raw results, figure sources, image indices, random seeds, and checkpoint hashes. Pre-registration records and post-hoc analyses are labelled separately. The public repository is https://github.com/BinNong/diffusion-blur-preference, with immutable release https://github.com/BinNong/diffusion-blur-preference/releases/tag/v1.0.1 and Zenodo archive https://doi.org/10.5281/zenodo.24279314. The SHA-256 manifest has passed integrity and exclusion checks; executable guards cover all eight reference kernels and 69 raw synthetic-operator rows. No model weights or credentials are included.
 
 We would be glad to address any questions.
 
