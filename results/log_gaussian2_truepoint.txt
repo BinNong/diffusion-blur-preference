@@ -1,0 +1,19 @@
+Sucessfully loaded the model edm-ffhq-64x64-uncond-vp.pkl
+Number of parameters:  61805571
+[supplement] 1 img 40 noise 0.172 L -5743.42724609375
+[supplement] 2 img 40 noise 0.5 L 8953.83251953125
+[supplement] 3 img 41 noise 0.172 L -5146.68359375
+[supplement] 4 img 41 noise 0.5 L 9417.3359375
+[supplement] 5 img 42 noise 0.172 L -6128.35205078125
+[supplement] 6 img 42 noise 0.5 L 9266.7802734375
+[supplement] 7 img 43 noise 0.172 L -5364.525390625
+[supplement] 8 img 43 noise 0.5 L 9158.2626953125
+[supplement] 9 img 44 noise 0.172 L -5404.4189453125
+[supplement] 10 img 44 noise 0.5 L 9388.75634765625
+[supplement] 11 img 45 noise 0.172 L -5805.5205078125
+[supplement] 12 img 45 noise 0.5 L 9195.2109375
+[supplement] 13 img 46 noise 0.172 L -5917.7646484375
+[supplement] 14 img 46 noise 0.5 L 9240.7529296875
+[supplement] 15 img 47 noise 0.172 L -5215.60498046875
+[supplement] 16 img 47 noise 0.5 L 9171.9267578125
+[saved] /data/experiment/de_conv_1/results/overblur_generalization_completed.json

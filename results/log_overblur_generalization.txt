@@ -1,0 +1,71 @@
+Sucessfully loaded the model edm-ffhq-64x64-uncond-vp.pkl
+Number of parameters:  61805571
+[G0] gaussian 1.0 {'kernel_sum': 1.0, 'symmetry': 0.0, 'g2_min': 4.2809080724737214e-08, 'g2_max': 1.0}
+[G1] gaussian img 40 noise 0.172 theta_opt 1.6 truth 1.0 elapsed 364
+[G1] gaussian img 40 noise 0.5 theta_opt 0.8 truth 1.0 elapsed 698
+[G1] gaussian img 41 noise 0.172 theta_opt 1.7 truth 1.0 elapsed 1067
+[G1] gaussian img 41 noise 0.5 theta_opt 0.9 truth 1.0 elapsed 1397
+[G1] gaussian img 42 noise 0.172 theta_opt 1.2 truth 1.0 elapsed 1763
+[G1] gaussian img 42 noise 0.5 theta_opt 0.8 truth 1.0 elapsed 2101
+[G1] gaussian img 43 noise 0.172 theta_opt 1.5 truth 1.0 elapsed 2467
+[G1] gaussian img 43 noise 0.5 theta_opt 1.0 truth 1.0 elapsed 2798
+[G1] gaussian img 44 noise 0.172 theta_opt 1.3 truth 1.0 elapsed 3161
+[G1] gaussian img 44 noise 0.5 theta_opt 0.9 truth 1.0 elapsed 3492
+[G1] gaussian img 45 noise 0.172 theta_opt 1.2 truth 1.0 elapsed 3871
+[G1] gaussian img 45 noise 0.5 theta_opt 1.0 truth 1.0 elapsed 4215
+[G1] gaussian img 46 noise 0.172 theta_opt 0.2 truth 1.0 elapsed 4583
+[G1] gaussian img 46 noise 0.5 theta_opt 0.8 truth 1.0 elapsed 4913
+[G1] gaussian img 47 noise 0.172 theta_opt 1.5 truth 1.0 elapsed 5277
+[G1] gaussian img 47 noise 0.5 theta_opt 0.9 truth 1.0 elapsed 5607
+[G0] gaussian 2.0 {'kernel_sum': 1.0, 'symmetry': 0.0, 'g2_min': 9.156583429148535e-22, 'g2_max': 0.9999998807907104}
+[G1] gaussian img 40 noise 0.172 theta_opt 2.275 truth 2.0 elapsed 5977
+[G1] gaussian img 40 noise 0.5 theta_opt 1.05 truth 2.0 elapsed 6307
+[G1] gaussian img 41 noise 0.172 theta_opt 2.275 truth 2.0 elapsed 6671
+[G1] gaussian img 41 noise 0.5 theta_opt 0.7 truth 2.0 elapsed 7001
+[G1] gaussian img 42 noise 0.172 theta_opt 2.1 truth 2.0 elapsed 7365
+[G1] gaussian img 42 noise 0.5 theta_opt 1.4 truth 2.0 elapsed 7701
+[G1] gaussian img 43 noise 0.172 theta_opt 2.45 truth 2.0 elapsed 8066
+[G1] gaussian img 43 noise 0.5 theta_opt 1.05 truth 2.0 elapsed 8396
+[G1] gaussian img 44 noise 0.172 theta_opt 2.1 truth 2.0 elapsed 8760
+[G1] gaussian img 44 noise 0.5 theta_opt 0.7 truth 2.0 elapsed 9091
+[G1] gaussian img 45 noise 0.172 theta_opt 2.275 truth 2.0 elapsed 9464
+[G1] gaussian img 45 noise 0.5 theta_opt 0.875 truth 2.0 elapsed 9804
+[G1] gaussian img 46 noise 0.172 theta_opt 1.925 truth 2.0 elapsed 10167
+[G1] gaussian img 46 noise 0.5 theta_opt 1.05 truth 2.0 elapsed 10498
+[G1] gaussian img 47 noise 0.172 theta_opt 1.925 truth 2.0 elapsed 10861
+[G1] gaussian img 47 noise 0.5 theta_opt 0.7 truth 2.0 elapsed 11192
+[G0] defocus 1.5 {'kernel_sum': 1.0, 'symmetry': 1.1175870895385742e-08, 'g2_min': 6.805477292814999e-10, 'g2_max': 0.9999997615814209}
+[G1] defocus img 40 noise 0.172 theta_opt 2.4 truth 1.5 elapsed 11555
+[G1] defocus img 40 noise 0.5 theta_opt 1.2 truth 1.5 elapsed 11889
+[G1] defocus img 41 noise 0.172 theta_opt 2.4 truth 1.5 elapsed 12253
+[G1] defocus img 41 noise 0.5 theta_opt 1.2 truth 1.5 elapsed 12584
+[G1] defocus img 42 noise 0.172 theta_opt 1.65 truth 1.5 elapsed 12947
+[G1] defocus img 42 noise 0.5 theta_opt 1.35 truth 1.5 elapsed 13287
+[G1] defocus img 43 noise 0.172 theta_opt 1.65 truth 1.5 elapsed 13651
+[G1] defocus img 43 noise 0.5 theta_opt 0.9 truth 1.5 elapsed 13981
+[G1] defocus img 44 noise 0.172 theta_opt 2.25 truth 1.5 elapsed 14345
+[G1] defocus img 44 noise 0.5 theta_opt 0.45 truth 1.5 elapsed 14675
+[G1] defocus img 45 noise 0.172 theta_opt 1.8 truth 1.5 elapsed 15053
+[G1] defocus img 45 noise 0.5 theta_opt 0.6 truth 1.5 elapsed 15399
+[G1] defocus img 46 noise 0.172 theta_opt 1.8 truth 1.5 elapsed 15763
+[G1] defocus img 46 noise 0.5 theta_opt 1.05 truth 1.5 elapsed 16094
+[G1] defocus img 47 noise 0.172 theta_opt 1.5 truth 1.5 elapsed 16457
+[G1] defocus img 47 noise 0.5 theta_opt 1.2 truth 1.5 elapsed 16788
+[G0] motion 3.0 {'kernel_sum': 1.0, 'symmetry': 0.0, 'g2_min': 5.52582205273211e-05, 'g2_max': 1.0}
+[G1] motion img 40 noise 0.172 theta_opt 3.25 truth 3.0 elapsed 17151
+[G1] motion img 40 noise 0.5 theta_opt 2.25 truth 3.0 elapsed 17482
+[G1] motion img 41 noise 0.172 theta_opt 3.5 truth 3.0 elapsed 17845
+[G1] motion img 41 noise 0.5 theta_opt 2.25 truth 3.0 elapsed 18176
+[G1] motion img 42 noise 0.172 theta_opt 2.75 truth 3.0 elapsed 18539
+[G1] motion img 42 noise 0.5 theta_opt 2.25 truth 3.0 elapsed 18877
+[G1] motion img 43 noise 0.172 theta_opt 0.0 truth 3.0 elapsed 19241
+[G1] motion img 43 noise 0.5 theta_opt 2.5 truth 3.0 elapsed 19571
+[G1] motion img 44 noise 0.172 theta_opt 3.0 truth 3.0 elapsed 19937
+[G1] motion img 44 noise 0.5 theta_opt 1.25 truth 3.0 elapsed 20267
+[G1] motion img 45 noise 0.172 theta_opt 0.0 truth 3.0 elapsed 20643
+[G1] motion img 45 noise 0.5 theta_opt 0.0 truth 3.0 elapsed 20984
+[G1] motion img 46 noise 0.172 theta_opt 0.0 truth 3.0 elapsed 21363
+[G1] motion img 46 noise 0.5 theta_opt 1.75 truth 3.0 elapsed 21694
+[G1] motion img 47 noise 0.172 theta_opt 3.0 truth 3.0 elapsed 22058
+[G1] motion img 47 noise 0.5 theta_opt 1.25 truth 3.0 elapsed 22389
+[saved] /data/experiment/de_conv_1/results/overblur_generalization.json elapsed 22388.539264678955

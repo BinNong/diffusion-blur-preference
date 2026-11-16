@@ -1,0 +1,97 @@
+{
+ "cfg": {
+  "checkpoint": "edm-ffhq-64x64-uncond-vp.pkl",
+  "pool": "data/bsds300_real_test_64.pt",
+  "generated": false,
+  "nimg": 1,
+  "operators": [
+   {
+    "t": 0.002,
+    "family": "gaussian",
+    "theta": 1.0,
+    "u_rfft": 0.08145748727809651,
+    "u_full": 0.07959393469554152
+   },
+   {
+    "t": 0.002,
+    "family": "gaussian",
+    "theta": 2.0,
+    "u_rfft": 0.021440923232792168,
+    "u_full": 0.019906419086663338
+   },
+   {
+    "t": 0.2,
+    "family": "gaussian",
+    "theta": 1.0,
+    "u_rfft": 0.08145748727809651,
+    "u_full": 0.07959393469554152
+   },
+   {
+    "t": 0.2,
+    "family": "gaussian",
+    "theta": 2.0,
+    "u_rfft": 0.021440923232792168,
+    "u_full": 0.019906419086663338
+   }
+  ],
+  "rtol": 1e-05,
+  "atol": 1e-05,
+  "method": "RK45",
+  "preregistered": "2026-11-11",
+  "smoke": true
+ },
+ "rows": [
+  {
+   "img": 0,
+   "source_filename": "101085.jpg",
+   "t": 0.002,
+   "family": "gaussian",
+   "theta": 1.0,
+   "u_rfft": 0.08145748727809651,
+   "u_full": 0.07959393469554152,
+   "lambda": 25056.15625,
+   "q_sharp": -27436.828125,
+   "q_blur": -52492.984375,
+   "terminal": 0.0344319352795479
+  },
+  {
+   "img": 0,
+   "source_filename": "101085.jpg",
+   "t": 0.002,
+   "family": "gaussian",
+   "theta": 2.0,
+   "u_rfft": 0.021440923232792168,
+   "u_full": 0.019906419086663338,
+   "lambda": 43907.7265625,
+   "q_sharp": -27805.3984375,
+   "q_blur": -71713.125,
+   "terminal": 0.06110721492605872
+  },
+  {
+   "img": 0,
+   "source_filename": "101085.jpg",
+   "t": 0.2,
+   "family": "gaussian",
+   "theta": 1.0,
+   "u_rfft": 0.08145748727809651,
+   "u_full": 0.07959393469554152,
+   "lambda": 1266.890625,
+   "q_sharp": -7237.8984375,
+   "q_blur": -8504.7890625,
+   "terminal": 0.0344319352795479
+  },
+  {
+   "img": 0,
+   "source_filename": "101085.jpg",
+   "t": 0.2,
+   "family": "gaussian",
+   "theta": 2.0,
+   "u_rfft": 0.021440923232792168,
+   "u_full": 0.019906419086663338,
+   "lambda": 1728.40625,
+   "q_sharp": -7248.734375,
+   "q_blur": -8977.140625,
+   "terminal": 0.06110721492605872
+  }
+ ]
+}

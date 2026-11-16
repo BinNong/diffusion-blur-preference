@@ -1,0 +1,250 @@
+
+########## 2026-10-25 08:16:18 启动；GPU 空闲 2539 MiB ##########
+
+########## 2026-10-25 08:16:18 D2: sweep_law_n120.json  (5 新族 x 6 算子 = 30 算子，约 4.1h) ##########
+/data/experiment/de_conv_1/repro/sweep_law_test.py:236: SyntaxWarning: invalid escape sequence '\s'
+  **物理读数**：当算子的传输被限制在窄带内，$h\star x$ 在每个频率上都被同等地衰减，
+[tune] W1: kind=weibull par=1.0 scale=0.1623 kunif_ref=0.9200
+[tune] W2: kind=weibull par=2.0 scale=0.2230 kunif_ref=0.9200
+[tune] W4: kind=weibull par=4.0 scale=0.2364 kunif_ref=0.9200
+[tune] B1: kind=butterworth par=1.0 scale=0.1133 kunif_ref=0.9200
+[tune] M2: kind=twoscale par=5.0 scale=0.0622 kunif_ref=0.9200
+[cfg] nimg=120 t=0.002 knif_ref=0.9199999999999999 targets=[0.35, 0.6, 0.85] 5 族 => 30 个算子
+Sucessfully loaded the model edm-ffhq-64x64-uncond-vp.pkl
+Number of parameters:  61805571
+[sharp] t=0.002 mean log p = 34310.1 (535s)
+  [1/30] W1@K0.35       knif=0.3500 Lambda=     2398+-    25 SNR= 95.7  L_G=  361.3  A=  6.64 (539s)
+  [2/30] W1@K0.6        knif=0.6000 Lambda=     5169+-    33 SNR=158.9  L_G=  619.4  A=  8.35 (549s)
+  [3/30] W1@K0.85       knif=0.8500 Lambda=    11104+-    41 SNR=269.7  L_G=  877.5  A= 12.66 (559s)
+  [4/30] W1@b0.3        knif=0.2760 Lambda=     1840+-    25 SNR= 73.2  L_G=  284.9  A=  6.46 (539s)
+  [5/30] W1@b0.7        knif=0.6440 Lambda=     5812+-    31 SNR=184.9  L_G=  664.8  A=  8.74 (548s)
+  [6/30] W1@raw         knif=0.9200 Lambda=    16668+-    54 SNR=309.9  L_G=  949.7  A= 17.55 (579s)
+  [7/30] W2@K0.35       knif=0.3500 Lambda=     2331+-    29 SNR= 79.3  L_G=  361.1  A=  6.45 (539s)
+  [8/30] W2@K0.6        knif=0.6000 Lambda=     5098+-    33 SNR=155.5  L_G=  619.1  A=  8.24 (550s)
+  [9/30] W2@K0.85       knif=0.8500 Lambda=    11332+-    50 SNR=228.3  L_G=  877.0  A= 12.92 (569s)
+  [10/30] W2@b0.3        knif=0.2760 Lambda=     1744+-    27 SNR= 65.8  L_G=  284.8  A=  6.12 (537s)
+  [11/30] W2@b0.7        knif=0.6440 Lambda=     5712+-    34 SNR=165.7  L_G=  664.5  A=  8.60 (552s)
+  [12/30] W2@raw         knif=0.9200 Lambda=    22421+-   123 SNR=182.4  L_G=  949.2  A= 23.62 (643s)
+  [13/30] W4@K0.35       knif=0.3500 Lambda=     2200+-    33 SNR= 66.6  L_G=  361.1  A=  6.09 (539s)
+  [14/30] W4@K0.6        knif=0.6000 Lambda=     4644+-    51 SNR= 91.8  L_G=  619.0  A=  7.50 (552s)
+  [15/30] W4@K0.85       knif=0.8500 Lambda=    10533+-    96 SNR=110.2  L_G=  876.9  A= 12.01 (576s)
+  [16/30] W4@b0.3        knif=0.2760 Lambda=     1688+-    33 SNR= 51.0  L_G=  284.7  A=  5.93 (537s)
+  [17/30] W4@b0.7        knif=0.6440 Lambda=     5278+-    51 SNR=103.4  L_G=  664.3  A=  7.94 (552s)
+  [18/30] W4@raw         knif=0.9200 Lambda=    24193+-   268 SNR= 90.3  L_G=  949.1  A= 25.49 (704s)
+  [19/30] B1@K0.35       knif=0.3500 Lambda=     2388+-    29 SNR= 82.2  L_G=  361.3  A=  6.61 (540s)
+  [20/30] B1@K0.6        knif=0.6000 Lambda=     5094+-    34 SNR=151.6  L_G=  619.4  A=  8.22 (547s)
+  [21/30] B1@K0.85       knif=0.8500 Lambda=    10929+-    40 SNR=270.2  L_G=  877.5  A= 12.45 (565s)
+  [22/30] B1@b0.3        knif=0.2760 Lambda=     1812+-    25 SNR= 71.2  L_G=  284.9  A=  6.36 (540s)
+  [23/30] B1@b0.7        knif=0.6440 Lambda=     5770+-    33 SNR=176.2  L_G=  664.9  A=  8.68 (548s)
+  [24/30] B1@raw         knif=0.9200 Lambda=    15786+-    54 SNR=292.6  L_G=  949.8  A= 16.62 (575s)
+  [25/30] M2@K0.35       knif=0.3500 Lambda=     2410+-    27 SNR= 88.0  L_G=  361.3  A=  6.67 (537s)
+  [26/30] M2@K0.6        knif=0.6000 Lambda=     5153+-    36 SNR=141.9  L_G=  619.3  A=  8.32 (549s)
+  [27/30] M2@K0.85       knif=0.8500 Lambda=    11207+-    43 SNR=261.0  L_G=  877.4  A= 12.77 (562s)
+  [28/30] M2@b0.3        knif=0.2760 Lambda=     1802+-    26 SNR= 70.2  L_G=  284.9  A=  6.33 (537s)
+  [29/30] M2@b0.7        knif=0.6440 Lambda=     5795+-    31 SNR=188.2  L_G=  664.7  A=  8.72 (551s)
+  [30/30] M2@raw         knif=0.9200 Lambda=    18025+-    75 SNR=240.3  L_G=  949.6  A= 18.98 (600s)
+
+[saved] /data/experiment/de_conv_1/results/sweep_law_n120.json   总耗时 17349s
+
+########## 2026-10-25 13:05:29 D3a: sweep_bdense_n120.json  (3 族 x 16 算子 = 48 算子，约 6.6h) ##########
+/data/experiment/de_conv_1/repro/sweep_law_test.py:236: SyntaxWarning: invalid escape sequence '\s'
+  **物理读数**：当算子的传输被限制在窄带内，$h\star x$ 在每个频率上都被同等地衰减，
+[tune] W2: kind=weibull par=2.0 scale=0.2230 kunif_ref=0.9200
+[tune] W8: kind=weibull par=8.0 scale=0.2335 kunif_ref=0.9200
+[tune] TK50: kind=tukey par=0.5 scale=0.2934 kunif_ref=0.9200
+[cfg] nimg=120 t=0.002 knif_ref=0.9199999999999999 targets=[0.15, 0.18, 0.22, 0.26, 0.3, 0.34, 0.38, 0.42, 0.46, 0.52, 0.58, 0.65, 0.7] 3 族 => 48 个算子
+Sucessfully loaded the model edm-ffhq-64x64-uncond-vp.pkl
+Number of parameters:  61805571
+[sharp] t=0.002 mean log p = 34310.5 (534s)
+  [1/48] W2@K0.15       knif=0.1500 Lambda=      876+-    22 SNR= 39.3  L_G=  154.8  A=  5.66 (536s)
+  [2/48] W2@K0.18       knif=0.1800 Lambda=     1099+-    26 SNR= 42.8  L_G=  185.7  A=  5.92 (536s)
+  [3/48] W2@K0.22       knif=0.2200 Lambda=     1337+-    26 SNR= 50.9  L_G=  227.0  A=  5.89 (537s)
+  [4/48] W2@K0.26       knif=0.2600 Lambda=     1672+-    25 SNR= 66.6  L_G=  268.3  A=  6.23 (538s)
+  [5/48] W2@K0.3        knif=0.3000 Lambda=     1937+-    26 SNR= 73.6  L_G=  309.5  A=  6.26 (538s)
+  [6/48] W2@K0.34       knif=0.3400 Lambda=     2251+-    26 SNR= 85.9  L_G=  350.8  A=  6.42 (537s)
+  [7/48] W2@K0.38       knif=0.3800 Lambda=     2589+-    30 SNR= 86.5  L_G=  392.1  A=  6.60 (541s)
+  [8/48] W2@K0.42       knif=0.4200 Lambda=     3026+-    29 SNR=106.1  L_G=  433.3  A=  6.98 (543s)
+  [9/48] W2@K0.46       knif=0.4600 Lambda=     3351+-    31 SNR=106.7  L_G=  474.6  A=  7.06 (544s)
+  [10/48] W2@K0.52       knif=0.5200 Lambda=     4002+-    30 SNR=131.6  L_G=  536.5  A=  7.46 (546s)
+  [11/48] W2@K0.58       knif=0.5800 Lambda=     4770+-    33 SNR=146.8  L_G=  598.4  A=  7.97 (548s)
+  [12/48] W2@K0.65       knif=0.6500 Lambda=     5830+-    36 SNR=163.2  L_G=  670.7  A=  8.69 (551s)
+  [13/48] W2@K0.7        knif=0.7000 Lambda=     6693+-    38 SNR=176.3  L_G=  722.2  A=  9.27 (552s)
+  [14/48] W2@b0.3        knif=0.2760 Lambda=     1729+-    28 SNR= 61.6  L_G=  284.8  A=  6.07 (539s)
+  [15/48] W2@b0.7        knif=0.6440 Lambda=     5718+-    39 SNR=147.6  L_G=  664.5  A=  8.61 (552s)
+  [16/48] W2@raw         knif=0.9200 Lambda=    22405+-   123 SNR=182.5  L_G=  949.2  A= 23.60 (646s)
+  [17/48] W8@K0.15       knif=0.1500 Lambda=      808+-    27 SNR= 29.7  L_G=  154.7  A=  5.22 (535s)
+  [18/48] W8@K0.18       knif=0.1800 Lambda=      991+-    28 SNR= 35.9  L_G=  185.7  A=  5.34 (537s)
+  [19/48] W8@K0.22       knif=0.2200 Lambda=     1212+-    31 SNR= 38.6  L_G=  227.0  A=  5.34 (537s)
+  [20/48] W8@K0.26       knif=0.2600 Lambda=     1451+-    33 SNR= 43.4  L_G=  268.2  A=  5.41 (539s)
+  [21/48] W8@K0.3        knif=0.3000 Lambda=     1716+-    34 SNR= 50.5  L_G=  309.5  A=  5.54 (538s)
+  [22/48] W8@K0.34       knif=0.3400 Lambda=     2000+-    36 SNR= 55.3  L_G=  350.8  A=  5.70 (540s)
+  [23/48] W8@K0.38       knif=0.3800 Lambda=     2286+-    39 SNR= 57.9  L_G=  392.0  A=  5.83 (541s)
+  [24/48] W8@K0.42       knif=0.4200 Lambda=     2564+-    47 SNR= 54.8  L_G=  433.3  A=  5.92 (543s)
+  [25/48] W8@K0.46       knif=0.4600 Lambda=     2901+-    47 SNR= 61.4  L_G=  474.6  A=  6.11 (544s)
+  [26/48] W8@K0.52       knif=0.5200 Lambda=     3451+-    58 SNR= 59.6  L_G=  536.5  A=  6.43 (549s)
+  [27/48] W8@K0.58       knif=0.5800 Lambda=     4053+-    62 SNR= 65.8  L_G=  598.4  A=  6.77 (553s)
+  [28/48] W8@K0.65       knif=0.6500 Lambda=     4924+-    69 SNR= 71.0  L_G=  670.6  A=  7.34 (557s)
+  [29/48] W8@K0.7        knif=0.7000 Lambda=     5658+-    78 SNR= 72.5  L_G=  722.2  A=  7.84 (560s)
+  [30/48] W8@b0.3        knif=0.2760 Lambda=     1566+-    32 SNR= 49.0  L_G=  284.7  A=  5.50 (539s)
+  [31/48] W8@b0.7        knif=0.6440 Lambda=     4846+-    70 SNR= 68.8  L_G=  664.4  A=  7.29 (555s)
+  [32/48] W8@raw         knif=0.9200 Lambda=    23705+-   386 SNR= 61.4  L_G=  949.1  A= 24.98 (718s)
+  [33/48] TK50@K0.15     knif=0.1500 Lambda=      818+-    25 SNR= 33.2  L_G=  154.7  A=  5.29 (537s)
+  [34/48] TK50@K0.18     knif=0.1800 Lambda=     1000+-    28 SNR= 35.4  L_G=  185.7  A=  5.39 (538s)
+  [35/48] TK50@K0.22     knif=0.2200 Lambda=     1254+-    33 SNR= 38.4  L_G=  227.0  A=  5.53 (537s)
+  [36/48] TK50@K0.26     knif=0.2600 Lambda=     1496+-    29 SNR= 51.4  L_G=  268.2  A=  5.58 (538s)
+  [37/48] TK50@K0.3      knif=0.3000 Lambda=     1772+-    32 SNR= 54.8  L_G=  309.5  A=  5.72 (539s)
+  [38/48] TK50@K0.34     knif=0.3400 Lambda=     2018+-    38 SNR= 53.3  L_G=  350.8  A=  5.75 (538s)
+  [39/48] TK50@K0.38     knif=0.3800 Lambda=     2282+-    40 SNR= 57.4  L_G=  392.0  A=  5.82 (540s)
+  [40/48] TK50@K0.42     knif=0.4200 Lambda=     2617+-    44 SNR= 59.7  L_G=  433.3  A=  6.04 (543s)
+  [41/48] TK50@K0.46     knif=0.4600 Lambda=     2950+-    47 SNR= 62.5  L_G=  474.6  A=  6.22 (545s)
+  [42/48] TK50@K0.52     knif=0.5200 Lambda=     3499+-    52 SNR= 67.8  L_G=  536.5  A=  6.52 (549s)
+  [43/48] TK50@K0.58     knif=0.5800 Lambda=     4133+-    60 SNR= 69.0  L_G=  598.3  A=  6.91 (552s)
+  [44/48] TK50@K0.65     knif=0.6500 Lambda=     5006+-    68 SNR= 73.2  L_G=  670.6  A=  7.47 (556s)
+  [45/48] TK50@K0.7      knif=0.7000 Lambda=     5767+-    80 SNR= 72.0  L_G=  722.1  A=  7.99 (559s)
+  [46/48] TK50@b0.3      knif=0.2760 Lambda=     1557+-    34 SNR= 45.2  L_G=  284.7  A=  5.47 (539s)
+  [47/48] TK50@b0.7      knif=0.6440 Lambda=     4854+-    71 SNR= 68.8  L_G=  664.4  A=  7.31 (554s)
+  [48/48] TK50@raw       knif=0.9200 Lambda=    23465+-   387 SNR= 60.7  L_G=  949.1  A= 24.72 (721s)
+
+[saved] /data/experiment/de_conv_1/results/sweep_bdense_n120.json   总耗时 27088s
+
+########## 2026-10-25 20:36:59 D3b: sweep_blow_n120.json  (3 族 x 7 算子 = 21 算子，约 2.9h) ##########
+/data/experiment/de_conv_1/repro/sweep_law_test.py:236: SyntaxWarning: invalid escape sequence '\s'
+  **物理读数**：当算子的传输被限制在窄带内，$h\star x$ 在每个频率上都被同等地衰减，
+[tune] W2: kind=weibull par=2.0 scale=0.2230 kunif_ref=0.9200
+[tune] W8: kind=weibull par=8.0 scale=0.2335 kunif_ref=0.9200
+[tune] TK50: kind=tukey par=0.5 scale=0.2934 kunif_ref=0.9200
+[cfg] nimg=120 t=0.002 knif_ref=0.9199999999999999 targets=[0.74, 0.78, 0.82, 0.86] 3 族 => 21 个算子
+Sucessfully loaded the model edm-ffhq-64x64-uncond-vp.pkl
+Number of parameters:  61805571
+[sharp] t=0.002 mean log p = 34310.5 (534s)
+  [1/21] W2@K0.74       knif=0.7400 Lambda=     7550+-    36 SNR=207.8  L_G=  763.5  A=  9.89 (556s)
+  [2/21] W2@K0.78       knif=0.7800 Lambda=     8644+-    43 SNR=202.0  L_G=  804.8  A= 10.74 (558s)
+  [3/21] W2@K0.82       knif=0.8200 Lambda=     9955+-    45 SNR=220.0  L_G=  846.1  A= 11.77 (564s)
+  [4/21] W2@K0.86       knif=0.8600 Lambda=    11929+-    51 SNR=235.5  L_G=  887.3  A= 13.44 (571s)
+  [5/21] W2@b0.3        knif=0.2760 Lambda=     1754+-    26 SNR= 67.6  L_G=  284.8  A=  6.16 (537s)
+  [6/21] W2@b0.7        knif=0.6440 Lambda=     5694+-    32 SNR=176.3  L_G=  664.5  A=  8.57 (552s)
+  [7/21] W2@raw         knif=0.9200 Lambda=    22348+-   122 SNR=183.6  L_G=  949.2  A= 23.54 (644s)
+  [8/21] W8@K0.74       knif=0.7400 Lambda=     6477+-    88 SNR= 73.5  L_G=  763.4  A=  8.48 (563s)
+  [9/21] W8@K0.78       knif=0.7800 Lambda=     7296+-   100 SNR= 73.3  L_G=  804.7  A=  9.07 (570s)
+  [10/21] W8@K0.82       knif=0.8200 Lambda=     8471+-   111 SNR= 76.1  L_G=  846.0  A= 10.01 (572s)
+  [11/21] W8@K0.86       knif=0.8600 Lambda=    10180+-   131 SNR= 77.7  L_G=  887.2  A= 11.47 (581s)
+  [12/21] W8@b0.3        knif=0.2760 Lambda=     1586+-    35 SNR= 45.0  L_G=  284.7  A=  5.57 (538s)
+  [13/21] W8@b0.7        knif=0.6440 Lambda=     4833+-    70 SNR= 69.2  L_G=  664.4  A=  7.27 (554s)
+  [14/21] W8@raw         knif=0.9200 Lambda=    23662+-   392 SNR= 60.4  L_G=  949.1  A= 24.93 (712s)
+  [15/21] TK50@K0.74     knif=0.7400 Lambda=     6487+-    90 SNR= 72.0  L_G=  763.4  A=  8.50 (561s)
+  [16/21] TK50@K0.78     knif=0.7800 Lambda=     7404+-   101 SNR= 73.4  L_G=  804.7  A=  9.20 (565s)
+  [17/21] TK50@K0.82     knif=0.8200 Lambda=     8550+-   108 SNR= 79.2  L_G=  845.9  A= 10.11 (574s)
+  [18/21] TK50@K0.86     knif=0.8600 Lambda=    10274+-   128 SNR= 80.0  L_G=  887.2  A= 11.58 (581s)
+  [19/21] TK50@b0.3      knif=0.2760 Lambda=     1561+-    35 SNR= 45.2  L_G=  284.7  A=  5.48 (538s)
+  [20/21] TK50@b0.7      knif=0.6440 Lambda=     4877+-    69 SNR= 70.2  L_G=  664.4  A=  7.34 (555s)
+  [21/21] TK50@raw       knif=0.9200 Lambda=    23449+-   387 SNR= 60.6  L_G=  949.1  A= 24.71 (724s)
+
+[saved] /data/experiment/de_conv_1/results/sweep_blow_n120.json   总耗时 12703s
+
+########## 2026-10-26 00:08:44 D1a: sweep_pshape_n120_A.json  (parts A，约 3.3h) ##########
+/data/experiment/de_conv_1/venv2/lib/python3.12/site-packages/torch/functional.py:554: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at /pytorch/aten/src/ATen/native/TensorShape.cpp:4314.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+[cfg] nimg=120 t=0.002 parts=['A'] refs=8 targets=[0.35, 0.6, 0.85] => 24 个算子
+Sucessfully loaded the model edm-ffhq-64x64-uncond-vp.pkl
+Number of parameters:  61805571
+[sharp] t=0.002 mean log p = 34310.3 (533s)
+  [1/24] airy/4@K0.35               kunif=0.3500 Lambda=     2358+-    25 SNR= 93.9  L_G=  361.2  A=  6.53 (540s)
+  [2/24] airy/4@K0.6                kunif=0.6000 Lambda=     5097+-    34 SNR=150.7  L_G=  619.2  A=  8.23 (546s)
+  [3/24] airy/4@K0.85               kunif=0.8500 Lambda=    11098+-    46 SNR=241.4  L_G=  877.2  A= 12.65 (564s)
+  [4/24] defocus/1@K0.35            kunif=0.3500 Lambda=     2369+-    27 SNR= 88.4  L_G=  361.1  A=  6.56 (536s)
+  [5/24] defocus/1@K0.6             kunif=0.6000 Lambda=     5018+-    33 SNR=151.6  L_G=  619.0  A=  8.11 (550s)
+  [6/24] defocus/1@K0.85            kunif=0.8500 Lambda=    11325+-    50 SNR=225.8  L_G=  876.9  A= 12.92 (571s)
+  [7/24] defocus/2@K0.35            kunif=0.3500 Lambda=     2328+-    30 SNR= 78.0  L_G=  361.4  A=  6.44 (539s)
+  [8/24] defocus/2@K0.6             kunif=0.6000 Lambda=     5018+-    34 SNR=145.6  L_G=  619.5  A=  8.10 (550s)
+  [9/24] defocus/2@K0.85            kunif=0.8500 Lambda=    10425+-    52 SNR=199.5  L_G=  877.6  A= 11.88 (569s)
+  [10/24] gaussian/1@K0.35           kunif=0.3500 Lambda=     2331+-    28 SNR= 84.8  L_G=  361.1  A=  6.46 (538s)
+  [11/24] gaussian/1@K0.6            kunif=0.6000 Lambda=     5049+-    33 SNR=152.7  L_G=  619.1  A=  8.16 (551s)
+  [12/24] gaussian/1@K0.85           kunif=0.8500 Lambda=    11409+-    49 SNR=232.1  L_G=  877.0  A= 13.01 (568s)
+  [13/24] gaussian/2@K0.35           kunif=0.3500 Lambda=     2369+-    29 SNR= 81.6  L_G=  361.5  A=  6.55 (541s)
+  [14/24] gaussian/2@K0.6            kunif=0.6000 Lambda=     4989+-    35 SNR=142.9  L_G=  619.7  A=  8.05 (552s)
+  [15/24] gaussian/2@K0.85           kunif=0.8500 Lambda=    10406+-    49 SNR=213.2  L_G=  877.9  A= 11.85 (572s)
+  [16/24] lowpass/0.25@K0.35         kunif=0.3500 Lambda=     1716+-    56 SNR= 30.7  L_G=  360.9  A=  4.75 (542s)
+  [17/24] lowpass/0.25@K0.6          kunif=0.6000 Lambda=     3428+-    89 SNR= 38.4  L_G=  618.7  A=  5.54 (555s)
+  [18/24] lowpass/0.25@K0.85         kunif=0.8500 Lambda=     8349+-   185 SNR= 45.2  L_G=  876.5  A=  9.53 (588s)
+  [19/24] motion/3@K0.35             kunif=0.3500 Lambda=     2302+-    31 SNR= 74.3  L_G=  361.0  A=  6.38 (544s)
+  [20/24] motion/3@K0.6              kunif=0.6000 Lambda=     4868+-    39 SNR=125.4  L_G=  618.9  A=  7.87 (561s)
+  [21/24] motion/3@K0.85             kunif=0.8500 Lambda=    10745+-    63 SNR=169.3  L_G=  876.8  A= 12.26 (588s)
+  [22/24] motion/7@K0.35             kunif=0.3500 Lambda=     2304+-    29 SNR= 79.6  L_G=  361.2  A=  6.38 (549s)
+  [23/24] motion/7@K0.6              kunif=0.6000 Lambda=     4770+-    38 SNR=126.9  L_G=  619.1  A=  7.70 (580s)
+  [24/24] motion/7@K0.85             kunif=0.8500 Lambda=     9932+-    60 SNR=166.0  L_G=  877.1  A= 11.32 (620s)
+
+[saved] /data/experiment/de_conv_1/results/sweep_pshape_n120_A.json   总耗时 13948s
+
+########## 2026-10-26 04:01:16 D1b: sweep_pshape_n120_BCV.json  (parts B C V，约 4.9h) ##########
+/data/experiment/de_conv_1/venv2/lib/python3.12/site-packages/torch/functional.py:554: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at /pytorch/aten/src/ATen/native/TensorShape.cpp:4314.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+[cfg] nimg=120 t=0.002 parts=['B', 'C', 'V'] refs=8 targets=[0.35, 0.6, 0.85] => 60 个算子
+Sucessfully loaded the model edm-ffhq-64x64-uncond-vp.pkl
+Number of parameters:  61805571
+[sharp] t=0.002 mean log p = 34310.4 (535s)
+  [1/60] airy/4@K0.35               kunif=0.3500 Lambda=     2358+-    25 SNR= 93.7  L_G=  361.2  A=  6.53 (538s)
+  [2/60] airy/4@K0.6                kunif=0.6000 Lambda=     5097+-    34 SNR=150.7  L_G=  619.2  A=  8.23 (546s)
+  [3/60] airy/4@K0.85               kunif=0.8500 Lambda=    11098+-    46 SNR=241.3  L_G=  877.2  A= 12.65 (563s)
+  [4/60] airy/4@b0.3                kunif=0.2798 Lambda=     1842+-    25 SNR= 72.7  L_G=  288.8  A=  6.38 (536s)
+  [5/60] airy/4@b0.7                kunif=0.6528 Lambda=     5881+-    33 SNR=177.0  L_G=  673.8  A=  8.73 (548s)
+  [6/60] airy/4@raw                 kunif=0.9326 Lambda=    22897+-   136 SNR=168.6  L_G=  962.5  A= 23.79 (650s)
+  [7/60] defocus/1@K0.35            kunif=0.3500 Lambda=     2323+-    30 SNR= 78.7  L_G=  361.1  A=  6.43 (538s)
+  [8/60] defocus/1@K0.6             kunif=0.6000 Lambda=     5083+-    33 SNR=153.2  L_G=  619.0  A=  8.21 (548s)
+  [9/60] defocus/1@K0.85            kunif=0.8500 Lambda=    11326+-    55 SNR=207.3  L_G=  876.9  A= 12.92 (572s)
+  [10/60] defocus/1@b0.3             kunif=0.2734 Lambda=     1719+-    27 SNR= 64.8  L_G=  282.1  A=  6.09 (536s)
+  [11/60] defocus/1@b0.7             kunif=0.6379 Lambda=     5600+-    35 SNR=160.5  L_G=  658.1  A=  8.51 (550s)
+  [12/60] defocus/1@raw              kunif=0.9113 Lambda=    17183+-   133 SNR=128.7  L_G=  940.2  A= 18.28 (643s)
+  [13/60] defocus/2@K0.35            kunif=0.3500 Lambda=     2334+-    29 SNR= 79.4  L_G=  361.4  A=  6.46 (539s)
+  [14/60] defocus/2@K0.6             kunif=0.6000 Lambda=     4928+-    36 SNR=136.2  L_G=  619.5  A=  7.95 (551s)
+  [15/60] defocus/2@K0.85            kunif=0.8500 Lambda=    10452+-    55 SNR=190.9  L_G=  877.6  A= 11.91 (571s)
+  [16/60] defocus/2@b0.3             kunif=0.2877 Lambda=     1871+-    31 SNR= 60.0  L_G=  297.1  A=  6.30 (540s)
+  [17/60] defocus/2@b0.7             kunif=0.6714 Lambda=     6017+-    36 SNR=168.5  L_G=  693.2  A=  8.68 (554s)
+  [18/60] defocus/2@raw              kunif=0.9591 Lambda=    22654+-   176 SNR=128.7  L_G=  990.3  A= 22.88 (709s)
+  [19/60] gaussian/1@K0.35           kunif=0.3500 Lambda=     2338+-    29 SNR= 79.6  L_G=  361.1  A=  6.48 (545s)
+  [20/60] gaussian/1@K0.6            kunif=0.6000 Lambda=     5033+-    35 SNR=144.8  L_G=  619.1  A=  8.13 (549s)
+  [21/60] gaussian/1@K0.85           kunif=0.8500 Lambda=    11379+-    47 SNR=243.6  L_G=  877.0  A= 12.98 (570s)
+  [22/60] gaussian/1@b0.3            kunif=0.2756 Lambda=     1771+-    26 SNR= 68.9  L_G=  284.3  A=  6.23 (538s)
+  [23/60] gaussian/1@b0.7            kunif=0.6430 Lambda=     5703+-    34 SNR=169.6  L_G=  663.4  A=  8.60 (552s)
+  [24/60] gaussian/1@raw             kunif=0.9185 Lambda=    22136+-   117 SNR=188.8  L_G=  947.7  A= 23.36 (640s)
+  [25/60] gaussian/2@K0.35           kunif=0.3500 Lambda=     2377+-    28 SNR= 83.7  L_G=  361.5  A=  6.58 (541s)
+  [26/60] gaussian/2@K0.6            kunif=0.6000 Lambda=     5024+-    38 SNR=132.0  L_G=  619.7  A=  8.11 (553s)
+  [27/60] gaussian/2@K0.85           kunif=0.8500 Lambda=    10380+-    46 SNR=226.5  L_G=  877.9  A= 11.82 (574s)
+  [28/60] gaussian/2@b0.3            kunif=0.2936 Lambda=     1916+-    26 SNR= 72.3  L_G=  303.2  A=  6.32 (540s)
+  [29/60] gaussian/2@b0.7            kunif=0.6850 Lambda=     6294+-    34 SNR=183.0  L_G=  707.5  A=  8.90 (555s)
+  [30/60] gaussian/2@raw             kunif=0.9786 Lambda=    39700+-   226 SNR=175.9  L_G= 1010.7  A= 39.28 (765s)
+  [31/60] ideal-bp@K0.2              kunif=0.2017 Lambda=    -1557+-    87 SNR=-17.9  L_G=  206.3  A= -7.55 (543s)
+  [32/60] ideal-bp@K0.4              kunif=0.4015 Lambda=    -2662+-   161 SNR=-16.5  L_G=  412.7  A= -6.45 (575s)
+  [33/60] ideal-bp@K0.6              kunif=0.5985 Lambda=     1544+-   199 SNR=  7.7  L_G=  614.8  A=  2.51 (607s)
+  [34/60] ideal-bp@K0.8              kunif=0.7973 Lambda=     8897+-   290 SNR= 30.7  L_G=  820.6  A= 10.84 (674s)
+  [35/60] ideal-hp@K0.2              kunif=0.1984 Lambda=    -5248+-   149 SNR=-35.2  L_G=  208.3  A=-25.19 (612s)
+  [36/60] ideal-hp@K0.4              kunif=0.3991 Lambda=    -9532+-   268 SNR=-35.6  L_G=  416.2  A=-22.90 (613s)
+  [37/60] ideal-hp@K0.6              kunif=0.5999 Lambda=   -10682+-   288 SNR=-37.0  L_G=  622.2  A=-17.17 (617s)
+  [38/60] ideal-hp@K0.8              kunif=0.8011 Lambda=   -10879+-   297 SNR=-36.6  L_G=  830.0  A=-13.11 (605s)
+  [39/60] ideal-lp@K0.2              kunif=0.2022 Lambda=    -1544+-    87 SNR=-17.7  L_G=  206.8  A= -7.47 (543s)
+  [40/60] ideal-lp@K0.4              kunif=0.3963 Lambda=    -2673+-   157 SNR=-17.0  L_G=  407.3  A= -6.56 (585s)
+  [41/60] ideal-lp@K0.6              kunif=0.5990 Lambda=     1729+-   202 SNR=  8.6  L_G=  615.3  A=  2.81 (613s)
+  [42/60] ideal-lp@K0.8              kunif=0.7978 Lambda=     9338+-   293 SNR= 31.9  L_G=  821.1  A= 11.37 (686s)
+  [43/60] lowpass/0.25@K0.35         kunif=0.3500 Lambda=     1730+-    51 SNR= 33.8  L_G=  360.9  A=  4.79 (542s)
+  [44/60] lowpass/0.25@K0.6          kunif=0.6000 Lambda=     3469+-    89 SNR= 39.0  L_G=  618.7  A=  5.61 (557s)
+  [45/60] lowpass/0.25@K0.85         kunif=0.8500 Lambda=     8372+-   188 SNR= 44.4  L_G=  876.5  A=  9.55 (590s)
+  [46/60] lowpass/0.25@b0.3          kunif=0.2696 Lambda=     1270+-    43 SNR= 29.7  L_G=  278.0  A=  4.57 (539s)
+  [47/60] lowpass/0.25@b0.7          kunif=0.6291 Lambda=     3690+-    99 SNR= 37.4  L_G=  648.7  A=  5.69 (559s)
+  [48/60] lowpass/0.25@raw           kunif=0.8987 Lambda=    18478+-   453 SNR= 40.8  L_G=  926.7  A= 19.94 (747s)
+  [49/60] motion/3@K0.35             kunif=0.3500 Lambda=     2323+-    30 SNR= 76.2  L_G=  361.0  A=  6.43 (543s)
+  [50/60] motion/3@K0.6              kunif=0.6000 Lambda=     4847+-    36 SNR=135.7  L_G=  618.9  A=  7.83 (560s)
+  [51/60] motion/3@K0.85             kunif=0.8500 Lambda=    10739+-    64 SNR=167.2  L_G=  876.8  A= 12.25 (587s)
+  [52/60] motion/3@b0.3              kunif=0.2719 Lambda=     1722+-    30 SNR= 57.7  L_G=  280.4  A=  6.14 (539s)
+  [53/60] motion/3@b0.7              kunif=0.6344 Lambda=     5327+-    39 SNR=137.3  L_G=  654.3  A=  8.14 (561s)
+  [54/60] motion/3@raw               kunif=0.9062 Lambda=    15397+-   135 SNR=113.7  L_G=  934.8  A= 16.47 (661s)
+  [55/60] motion/7@K0.35             kunif=0.3500 Lambda=     2285+-    32 SNR= 71.3  L_G=  361.2  A=  6.33 (547s)
+  [56/60] motion/7@K0.6              kunif=0.6000 Lambda=     4755+-    41 SNR=115.3  L_G=  619.1  A=  7.68 (582s)
+  [57/60] motion/7@K0.85             kunif=0.8500 Lambda=     9992+-    55 SNR=180.2  L_G=  877.1  A= 11.39 (623s)
+  [58/60] motion/7@b0.3              kunif=0.2846 Lambda=     1804+-    30 SNR= 60.6  L_G=  293.7  A=  6.14 (544s)
+  [59/60] motion/7@b0.7              kunif=0.6641 Lambda=     5643+-    42 SNR=134.9  L_G=  685.3  A=  8.23 (594s)
+  [60/60] motion/7@raw               kunif=0.9488 Lambda=    19216+-   158 SNR=121.8  L_G=  979.0  A= 19.63 (735s)
+
+[saved] /data/experiment/de_conv_1/results/sweep_pshape_n120_BCV.json   总耗时 35572s
+
+########## 2026-10-26 13:54:10 全部命令结束；跑裁判： ##########
+
+########## 2026-10-26 13:54:10   ./venv2/bin/python repro/judge_law_n120.py --dump results/fig_law_n120.json ##########

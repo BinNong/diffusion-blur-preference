@@ -1,0 +1,42 @@
+{
+ "experiment": "blur preference Lambda(t) = log p_t(h*x) - log p_t(x)",
+ "model": "edm-ffhq-64x64-uncond-vp",
+ "kernel": "gaussian sigma=1.5, ks=15, circular",
+ "x_star": "pool[255] of 256-sample prior pool (seed 0)",
+ "N_modes_rfft": 2112,
+ "N_dims": 12288,
+ "tmin_used_for_p0": 0.002,
+ "curve": [
+  {"t": 0.002, "logp_blur": 72285.5, "logp_sharp": 38387.9, "Lambda": 33897.6, "Lambda_gauss": 452.6, "amplification": 74.90},
+  {"t": 0.005, "logp_blur": 65853.8, "logp_sharp": 38062.0, "Lambda": 27791.8, "Lambda_gauss": 450.1, "amplification": 61.75},
+  {"t": 0.01,  "logp_blur": 59606.2, "logp_sharp": 37396.2, "Lambda": 22210.0, "Lambda_gauss": 441.8, "amplification": 50.27},
+  {"t": 0.02,  "logp_blur": 49248.6, "logp_sharp": 35958.4, "Lambda": 13290.3, "Lambda_gauss": 416.0, "amplification": 31.95},
+  {"t": 0.05,  "logp_blur": 32197.4, "logp_sharp": 28667.7, "Lambda": 3529.7,  "Lambda_gauss": 330.3, "amplification": 10.68},
+  {"t": 0.10,  "logp_blur": 20692.1, "logp_sharp": 19638.0, "Lambda": 1054.1,  "Lambda_gauss": 229.6, "amplification": 4.59},
+  {"t": 0.20,  "logp_blur": 9683.3,  "logp_sharp": 9633.2,  "Lambda": 50.1,    "Lambda_gauss": 129.2, "amplification": 0.39}
+ ],
+ "gaussian_control": {
+  "theoretical": 1022.0,
+  "empirical_mean_over_24_images": 1001.1,
+  "empirical_std": 459.0,
+  "empirical_min": 347.2,
+  "empirical_max": 2397.0,
+  "this_image": 438.4,
+  "z_score_this_image": -1.23
+ },
+ "hutchinson_noise_floor": {
+  "K_repeats": 8,
+  "std_logp_blur": 249.7,
+  "std_logp_sharp": 171.8,
+  "std_of_difference": 303.1,
+  "signal_to_noise": 110.0
+ },
+ "spectrum_sensitivity": {
+  "note": "Delta(y)-Delta(x*) across K in {16,64,255} and floor in {0, tmin^2}",
+  "min": 32994.3,
+  "max": 33063.3,
+  "spread": 69.0
+ },
+ "retracted": "the earlier '40274 nats' figure (mixed baselines, single-image accident)",
+ "cross_image_variation": "Lambda(0.002) in [3.3e4, 4.1e4] over two images; Phase B 20-image mean potential gap -4.3e4"
+}

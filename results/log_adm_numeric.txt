@@ -1,0 +1,5 @@
+[numeric] {'sigma': 0.005, 'method': 'RK45', 'tolerance': 1e-05, 'q_sharp': 4177.607421875, 'q_blur': -24725.80078125, 'lambda': 28903.408203125, 'elapsed': 227.99723076820374}
+[numeric] {'sigma': 0.05, 'method': 'RK45', 'tolerance': 1e-05, 'q_sharp': 7562.0234375, 'q_blur': -19293.3984375, 'lambda': 26855.421875, 'elapsed': 453.2823235988617}
+[numeric] {'sigma': 0.2, 'method': 'RK45', 'tolerance': 1e-05, 'q_sharp': 8413.939453125, 'q_blur': -17259.984375, 'lambda': 25673.923828125, 'elapsed': 688.0816516876221}
+[numeric] {'sigma': 0.2, 'method': 'DOP853', 'tolerance': 1e-06, 'q_sharp': 8325.466796875, 'q_blur': -17300.93359375, 'lambda': 25626.400390625, 'elapsed': 11319.290189027786}
+[saved] adm_numeric.json

@@ -1,0 +1,2 @@
+f6f8f24a2b46ae79807b0f919e2550c6ed37cc3f8b7a2100629092cad9b5d2f5  ckpt/edm-ffhq-64x64-uncond-vp.pkl
+35b86f703d00002dee6b276427c7d477eaef90beb5f06467da7d7137db3a1141  ckpt/edm-afhqv2-64x64-uncond-vp.pkl

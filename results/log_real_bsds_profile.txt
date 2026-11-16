@@ -1,0 +1,19 @@
+Sucessfully loaded the model edm-ffhq-64x64-uncond-vp.pkl
+Number of parameters:  61805571
+[P2] 0 0.172 theta_opt 0.125 elapsed 370
+[P2] 0 0.5 theta_opt 0.75 elapsed 702
+[P2] 1 0.172 theta_opt 1.125 elapsed 1081
+[P2] 1 0.5 theta_opt 0.75 elapsed 1424
+[P2] 2 0.172 theta_opt 1.75 elapsed 1789
+[P2] 2 0.5 theta_opt 1.25 elapsed 2121
+[P2] 3 0.172 theta_opt 1.875 elapsed 2492
+[P2] 3 0.5 theta_opt 0.0 elapsed 2836
+[P2] 4 0.172 theta_opt 1.875 elapsed 3212
+[P2] 4 0.5 theta_opt 0.875 elapsed 3544
+[P2] 5 0.172 theta_opt 2.125 elapsed 3915
+[P2] 5 0.5 theta_opt 0.75 elapsed 4258
+[P2] 6 0.172 theta_opt 0.25 elapsed 4630
+[P2] 6 0.5 theta_opt 0.625 elapsed 4962
+[P2] 7 0.172 theta_opt 0.0 elapsed 5327
+[P2] 7 0.5 theta_opt 0.75 elapsed 5660
+[saved] /data/experiment/de_conv_1/results/real_bsds_profile.json records 16

@@ -1,0 +1,105 @@
+{
+ "analysis": "post-hoc B1 original-probe check",
+ "sources": {
+  "generated": {
+   "rows": [
+    {
+     "source": "generated",
+     "record_index": 0,
+     "img": 0,
+     "noise": 0.172,
+     "original_q": -9035.1953125,
+     "b1_recomputed_q": -9035.171875,
+     "b1_minus_original": 0.0234375,
+     "batched_q": -9033.7421875,
+     "batched_minus_b1": 1.4296875
+    },
+    {
+     "source": "generated",
+     "record_index": 1,
+     "img": 0,
+     "noise": 0.5,
+     "original_q": 4733.67578125,
+     "b1_recomputed_q": 4733.6875,
+     "b1_minus_original": 0.01171875,
+     "batched_q": 4733.90625,
+     "batched_minus_b1": 0.21875
+    },
+    {
+     "source": "generated",
+     "record_index": 2,
+     "img": 1,
+     "noise": 0.172,
+     "original_q": -9405.9921875,
+     "b1_recomputed_q": -9405.984375,
+     "b1_minus_original": 0.0078125,
+     "batched_q": -9406.875,
+     "batched_minus_b1": -0.890625
+    },
+    {
+     "source": "generated",
+     "record_index": 3,
+     "img": 1,
+     "noise": 0.5,
+     "original_q": 4737.359375,
+     "b1_recomputed_q": 4737.36328125,
+     "b1_minus_original": 0.00390625,
+     "batched_q": 4736.9609375,
+     "batched_minus_b1": -0.40234375
+    }
+   ],
+   "max_abs_b1_minus_original": 0.0234375,
+   "max_abs_batched_minus_b1": 1.4296875
+  },
+  "real": {
+   "rows": [
+    {
+     "source": "real",
+     "record_index": 0,
+     "img": 0,
+     "noise": 0.172,
+     "original_q": -10306.375,
+     "b1_recomputed_q": -10306.3671875,
+     "b1_minus_original": 0.0078125,
+     "batched_q": -10306.40625,
+     "batched_minus_b1": -0.0390625
+    },
+    {
+     "source": "real",
+     "record_index": 1,
+     "img": 0,
+     "noise": 0.5,
+     "original_q": 4266.6328125,
+     "b1_recomputed_q": 4266.65625,
+     "b1_minus_original": 0.0234375,
+     "batched_q": 4266.953125,
+     "batched_minus_b1": 0.296875
+    },
+    {
+     "source": "real",
+     "record_index": 2,
+     "img": 1,
+     "noise": 0.172,
+     "original_q": -8794.3984375,
+     "b1_recomputed_q": -8794.3828125,
+     "b1_minus_original": 0.015625,
+     "batched_q": -8795.0625,
+     "batched_minus_b1": -0.6796875
+    },
+    {
+     "source": "real",
+     "record_index": 3,
+     "img": 1,
+     "noise": 0.5,
+     "original_q": 4857.31640625,
+     "b1_recomputed_q": 4857.33203125,
+     "b1_minus_original": 0.015625,
+     "batched_q": 4857.61328125,
+     "batched_minus_b1": 0.28125
+    }
+   ],
+   "max_abs_b1_minus_original": 0.0234375,
+   "max_abs_batched_minus_b1": 0.6796875
+  }
+ }
+}

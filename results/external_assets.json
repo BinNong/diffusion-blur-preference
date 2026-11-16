@@ -1,0 +1,20 @@
+{
+ "source": "official OpenAI checkpoint URLs",
+ "download": "8 parallel HTTP ranges, 4-MiB chunks",
+ "files": {
+  "adm_imagenet64_uncond_100M_1500K.pt": {
+   "url": "https://openaipublic.blob.core.windows.net/diffusion/march-2021/imagenet64_uncond_100M_1500K.pt",
+   "size": 484363296,
+   "architecture": "OpenAI improved-diffusion ADM UNet, unconditional ImageNet-64",
+   "sha256": "338bd7ac4a51f9a487e6b3968d4f95dfffeee7e48a2f0da83213b05d8c63110a",
+   "local_path": "ckpt/adm_imagenet64_uncond_100M_1500K.pt"
+  },
+  "adm_imagenet128_cond_128x128_diffusion.pt": {
+   "url": "https://openaipublic.blob.core.windows.net/diffusion/jul-2021/128x128_diffusion.pt",
+   "size": 1686227960,
+   "architecture": "OpenAI guided-diffusion ADM UNet, conditional ImageNet-128",
+   "sha256": "afaa73c380a2d05d2060949d48ac8721c065e2b4b1c6a316a802c7ef53fadcc9",
+   "local_path": "ckpt/adm_imagenet128_cond_128x128_diffusion.pt"
+  }
+ }
+}

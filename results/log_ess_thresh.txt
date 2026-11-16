@@ -1,0 +1,22 @@
+池 256 张；算子 51 个；sigma_n 栅格 19 点 (0.02..300)
+  sigma_n=0.02    完成 51 行累计
+  sigma_n=0.05    完成 102 行累计
+  sigma_n=0.1     完成 153 行累计
+  sigma_n=0.3     完成 204 行累计
+  sigma_n=1       完成 255 行累计
+  sigma_n=3       完成 306 行累计
+  sigma_n=5       完成 357 行累计
+  sigma_n=6       完成 408 行累计
+  sigma_n=7       完成 459 行累计
+  sigma_n=8       完成 510 行累计
+  sigma_n=9       完成 561 行累计
+  sigma_n=10      完成 612 行累计
+  sigma_n=12      完成 663 行累计
+  sigma_n=15      完成 714 行累计
+  sigma_n=20      完成 765 行累计
+  sigma_n=30      完成 816 行累计
+  sigma_n=50      完成 867 行累计
+  sigma_n=100     完成 918 行累计
+  sigma_n=300     完成 969 行累计
+
+[saved] /data/experiment/de_conv_1/results/ess_threshold.json

@@ -1,0 +1,98 @@
+[N0] gaussian 1.0 T max 0.07733242850227769 approx error max abs 0.5727053337182715
+[N0] gaussian 2.0 T max 0.15488292880047788 approx error max abs 0.589807664113907
+[N0] defocus 1.0 T max 0.0719389377986792 approx error max abs 0.569579102494175
+[N0] defocus 2.0 T max 0.11002345328350188 approx error max abs 0.5898164078327663
+/data/experiment/de_conv_1/venv2/lib/python3.12/site-packages/torch/functional.py:554: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at /pytorch/aten/src/ATen/native/TensorShape.cpp:4314.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+[N0] airy 4.0 T max 0.10438595831832558 approx error max abs 0.5742314058134811
+[N0] motion 3.0 T max 0.13195553518258935 approx error max abs 0.5610437540572489
+[N0] motion 7.0 T max 0.24362059003572314 approx error max abs 0.5706695132232588
+[N0] lowpass 0.25 T max 0.03561189899456693 approx error max abs 0.5718210990554348
+Sucessfully loaded the model edm-ffhq-64x64-uncond-vp.pkl
+Number of parameters:  61805571
+[N1] 0.002 1 / 32 Lambda 31854.546875 elapsed 16
+[N1] 0.002 2 / 32 Lambda 31693.25 elapsed 32
+[N1] 0.002 3 / 32 Lambda 32335.6015625 elapsed 47
+[N1] 0.002 4 / 32 Lambda 31946.21875 elapsed 62
+[N1] 0.002 5 / 32 Lambda 31972.0625 elapsed 77
+[N1] 0.002 6 / 32 Lambda 31884.625 elapsed 92
+[N1] 0.002 7 / 32 Lambda 32271.5546875 elapsed 108
+[N1] 0.002 8 / 32 Lambda 31398.375 elapsed 124
+[N1] 0.002 9 / 32 Lambda 32012.625 elapsed 139
+[N1] 0.002 10 / 32 Lambda 31527.21875 elapsed 155
+[N1] 0.002 11 / 32 Lambda 32040.59375 elapsed 170
+[N1] 0.002 12 / 32 Lambda 31845.25 elapsed 186
+[N1] 0.002 13 / 32 Lambda 31756.109375 elapsed 202
+[N1] 0.002 14 / 32 Lambda 31642.984375 elapsed 218
+[N1] 0.002 15 / 32 Lambda 31784.828125 elapsed 234
+[N1] 0.002 16 / 32 Lambda 31972.9921875 elapsed 250
+[N1] 0.002 17 / 32 Lambda 31589.2109375 elapsed 266
+[N1] 0.002 18 / 32 Lambda 31686.0234375 elapsed 282
+[N1] 0.002 19 / 32 Lambda 32461.2421875 elapsed 298
+[N1] 0.002 20 / 32 Lambda 31959.234375 elapsed 314
+[N1] 0.002 21 / 32 Lambda 32071.1171875 elapsed 329
+[N1] 0.002 22 / 32 Lambda 32094.1796875 elapsed 345
+[N1] 0.002 23 / 32 Lambda 31731.734375 elapsed 361
+[N1] 0.002 24 / 32 Lambda 31075.484375 elapsed 377
+[N1] 0.002 25 / 32 Lambda 31981.859375 elapsed 393
+[N1] 0.002 26 / 32 Lambda 32175.625 elapsed 409
+[N1] 0.002 27 / 32 Lambda 32209.3828125 elapsed 425
+[N1] 0.002 28 / 32 Lambda 31730.640625 elapsed 440
+[N1] 0.002 29 / 32 Lambda 32097.2265625 elapsed 456
+[N1] 0.002 30 / 32 Lambda 31711.171875 elapsed 475
+[N1] 0.002 31 / 32 Lambda 31336.0703125 elapsed 507
+[N1] 0.002 32 / 32 Lambda 31411.1640625 elapsed 538
+[N1] 0.2 1 / 32 Lambda 153.98046875 elapsed 560
+[N1] 0.2 2 / 32 Lambda 174.63671875 elapsed 577
+[N1] 0.2 3 / 32 Lambda 185.55078125 elapsed 589
+[N1] 0.2 4 / 32 Lambda 222.64453125 elapsed 601
+[N1] 0.2 5 / 32 Lambda 191.85546875 elapsed 612
+[N1] 0.2 6 / 32 Lambda 248.70703125 elapsed 624
+[N1] 0.2 7 / 32 Lambda 144.27734375 elapsed 635
+[N1] 0.2 8 / 32 Lambda 71.18359375 elapsed 647
+[N1] 0.2 9 / 32 Lambda 171.00390625 elapsed 659
+[N1] 0.2 10 / 32 Lambda 201.97265625 elapsed 670
+[N1] 0.2 11 / 32 Lambda 187.14453125 elapsed 681
+[N1] 0.2 12 / 32 Lambda 73.10546875 elapsed 693
+[N1] 0.2 13 / 32 Lambda 223.27734375 elapsed 704
+[N1] 0.2 14 / 32 Lambda 178.38671875 elapsed 716
+[N1] 0.2 15 / 32 Lambda 181.421875 elapsed 728
+[N1] 0.2 16 / 32 Lambda 188.40234375 elapsed 739
+[N1] 0.2 17 / 32 Lambda 282.28515625 elapsed 750
+[N1] 0.2 18 / 32 Lambda 179.83203125 elapsed 762
+[N1] 0.2 19 / 32 Lambda 174.75390625 elapsed 773
+[N1] 0.2 20 / 32 Lambda 172.50390625 elapsed 785
+[N1] 0.2 21 / 32 Lambda 164.7109375 elapsed 796
+[N1] 0.2 22 / 32 Lambda 118.89453125 elapsed 808
+[N1] 0.2 23 / 32 Lambda 309.51953125 elapsed 819
+[N1] 0.2 24 / 32 Lambda 306.45703125 elapsed 831
+[N1] 0.2 25 / 32 Lambda 231.44140625 elapsed 842
+[N1] 0.2 26 / 32 Lambda 223.83203125 elapsed 854
+[N1] 0.2 27 / 32 Lambda 194.57421875 elapsed 865
+[N1] 0.2 28 / 32 Lambda 242.3828125 elapsed 877
+[N1] 0.2 29 / 32 Lambda 209.84375 elapsed 888
+[N1] 0.2 30 / 32 Lambda 247.94140625 elapsed 900
+[N1] 0.2 31 / 32 Lambda 284.27734375 elapsed 912
+[N1] 0.2 32 / 32 Lambda 108.99609375 elapsed 923
+[N2] 0.002 RK45 0.001 Lambda 32005.375
+[N2] 0.002 RK45 0.0001 Lambda 31945.953125
+[N2] 0.002 RK45 1e-05 Lambda 31942.6171875
+[N2] 0.002 RK45 1e-06 Lambda 31943.1875
+[N2] 0.002 DOP853 1e-05 Lambda 31936.9609375
+[N2] 0.002 DOP853 1e-06 Lambda 31942.765625
+[N2] 0.2 RK45 0.001 Lambda 240.3828125
+[N2] 0.2 RK45 0.0001 Lambda 236.7109375
+[N2] 0.2 RK45 1e-05 Lambda 235.9921875
+[N2] 0.2 RK45 1e-06 Lambda 235.8203125
+[N2] 0.2 DOP853 1e-05 Lambda 235.8359375
+[N2] 0.2 DOP853 1e-06 Lambda 235.8203125
+[saved] /data/experiment/de_conv_1/results/review_numeric.json elapsed 2868.8387360572815
+Sucessfully loaded the model edm-ffhq-64x64-uncond-vp.pkl
+Number of parameters:  61805571
+[N2-resume] RK45 0.001 207.91796875
+[N2-resume] RK45 0.0001 207.0390625
+[N2-resume] RK45 1e-05 206.08984375
+[N2-resume] RK45 1e-06 206.0234375
+[N2-resume] DOP853 1e-05 206.0546875
+[N2-resume] DOP853 1e-06 206.01171875
+[saved] /data/experiment/de_conv_1/results/review_numeric.json

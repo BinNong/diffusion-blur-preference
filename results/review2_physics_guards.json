@@ -1,0 +1,101 @@
+{
+ "cfg": {
+  "date": "2026-11-13",
+  "device": "cpu",
+  "torch": "2.7.1+cu126",
+  "seed": 20261113,
+  "synthetic_rows": 69
+ },
+ "reference_kernels": [
+  {
+   "family": "gaussian",
+   "theta": 1.0,
+   "u_rfft": 0.08145748727809651,
+   "u_full": 0.07959393469554152,
+   "full_filter_max_abs": 6.661338147750939e-16,
+   "parseval_max_relative": 0.0,
+   "kernel_sum_error": 0.0,
+   "flip_symmetry": 0.0,
+   "centre_has_peak": true
+  },
+  {
+   "family": "gaussian",
+   "theta": 2.0,
+   "u_rfft": 0.021440923232792168,
+   "u_full": 0.019906419086663338,
+   "full_filter_max_abs": 2.498001805406602e-16,
+   "parseval_max_relative": 1.5374753710813222e-16,
+   "kernel_sum_error": 0.0,
+   "flip_symmetry": 0.0,
+   "centre_has_peak": true
+  },
+  {
+   "family": "defocus",
+   "theta": 1.0,
+   "u_rfft": 0.08865749817223299,
+   "u_full": 0.08670648988784996,
+   "full_filter_max_abs": 4.996003610813204e-16,
+   "parseval_max_relative": 1.6471821720986272e-16,
+   "kernel_sum_error": 0.0,
+   "flip_symmetry": 1.3877787807814457e-17,
+   "centre_has_peak": true
+  },
+  {
+   "family": "defocus",
+   "theta": 2.0,
+   "u_rfft": 0.0408521069396723,
+   "u_full": 0.03901908464327201,
+   "full_filter_max_abs": 3.885780586188048e-16,
+   "parseval_max_relative": 1.5672985894928035e-16,
+   "kernel_sum_error": 0.0,
+   "flip_symmetry": 1.3877787807814457e-17,
+   "centre_has_peak": true
+  },
+  {
+   "family": "airy",
+   "theta": 4.0,
+   "u_rfft": 0.06738967566977985,
+   "u_full": 0.06567696811690463,
+   "full_filter_max_abs": 4.718447854656915e-16,
+   "parseval_max_relative": 0.0,
+   "kernel_sum_error": 0.0,
+   "flip_symmetry": 0.0,
+   "centre_has_peak": true
+  },
+  {
+   "family": "motion",
+   "theta": 3.0,
+   "u_rfft": 0.09377589029104501,
+   "u_full": 0.08661775210042219,
+   "full_filter_max_abs": 4.440892098500626e-16,
+   "parseval_max_relative": 1.630129203350053e-16,
+   "kernel_sum_error": 1.1102230246251565e-16,
+   "flip_symmetry": 6.776263578034403e-21,
+   "centre_has_peak": true
+  },
+  {
+   "family": "motion",
+   "theta": 7.0,
+   "u_rfft": 0.051222196311053264,
+   "u_full": 0.04275714531867009,
+   "full_filter_max_abs": 3.3306690738754696e-16,
+   "parseval_max_relative": 0.0,
+   "kernel_sum_error": 1.1102230246251565e-16,
+   "flip_symmetry": 0.0,
+   "centre_has_peak": true
+  },
+  {
+   "family": "lowpass",
+   "theta": 0.25,
+   "u_rfft": 0.10132575757575757,
+   "u_full": 0.098876953125,
+   "full_filter_max_abs": 4.440892098500626e-16,
+   "parseval_max_relative": 1.6678078103385907e-16
+  }
+ ],
+ "guards": {
+  "K1_K2_reference_kernels": 8,
+  "K3_synthetic_rows": 69,
+  "pass": true
+ }
+}

@@ -1,0 +1,10 @@
+Sucessfully loaded the model edm-ffhq-64x64-uncond-vp.pkl
+Number of parameters:  61805571
+[N0 核守卫] {"sym_correct": 0.0, "peak_correct": [7, 7], "sum_correct": 1.0000001192092896, "bitident_correct": true, "kunif_correct_15": 0.9628544888830968}
+[N0] 正确核：不对称 0.000e+00、峰 [7, 7]、Σk=1.000000119、与 putils 逐比特相同=True；kunif(σ=1.5)=0.962854（预官 0.962855）
+[N0] ✅ 守卫通过
+[pool] 载入 20 张真实池图 /tmp/pool_ffhq64_256_s0.pt
+  [correct img0 sn=0.05  ] argmin θ=0.0    L(0)=  -57161.4 L(θ*)=  -56091.4 θ=0胜=Y  (113s)
+  [correct img0 sn=0.3   ] argmin θ=2.5    L(0)=  -32077.3 L(θ*)=  -49777.6 θ=0胜=N  (228s)
+
+[saved] /data/experiment/de_conv_1/results/smoke_overblur_indep.json   总耗时 228s

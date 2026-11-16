@@ -1,0 +1,35 @@
+Sucessfully loaded the model edm-ffhq-64x64-uncond-vp.pkl
+Number of parameters:  61805571
+[Q1] edm_generated_255 0.002 -1.0 -28847.75 7
+[Q1] edm_generated_255 0.002 -0.5 -33141.953125 14
+[Q1] edm_generated_255 0.002 -0.25 -35572.9140625 20
+[Q1] edm_generated_255 0.002 0.0 -38380.5625 27
+[Q1] edm_generated_255 0.002 0.25 -41289.8046875 34
+[Q1] edm_generated_255 0.002 0.5 -45201.984375 41
+[Q1] edm_generated_255 0.002 1.0 -70429.2734375 49
+[Q2] edm_generated_255 0.002 actual -32048.7109375 prediction {'gradient': -12060.03125, 'curvature': -6331.25, 'predicted_delta_q_at_1': -15225.65625, 'absolute_error': 16823.0546875}
+[Q1] edm_generated_255 0.2 -1.0 -8904.796875 55
+[Q1] edm_generated_255 0.2 -0.5 -9301.7109375 61
+[Q1] edm_generated_255 0.2 -0.25 -9448.8828125 67
+[Q1] edm_generated_255 0.2 0.0 -9548.28125 72
+[Q1] edm_generated_255 0.2 0.25 -9598.09375 78
+[Q1] edm_generated_255 0.2 0.5 -9639.921875 83
+[Q1] edm_generated_255 0.2 1.0 -9754.38671875 89
+[Q2] edm_generated_255 0.2 actual -206.10546875 prediction {'gradient': -338.2109375, 'curvature': 619.71875, 'predicted_delta_q_at_1': -28.3515625, 'absolute_error': 177.75390625}
+[Q1] bsds_real_0 0.002 -1.0 -16658.03125 95
+[Q1] bsds_real_0 0.002 -0.5 -21662.7265625 102
+[Q1] bsds_real_0 0.002 -0.25 -24511.1484375 109
+[Q1] bsds_real_0 0.002 0.0 -27436.8828125 115
+[Q1] bsds_real_0 0.002 0.25 -30464.6640625 122
+[Q1] bsds_real_0 0.002 0.5 -34489.4453125 129
+[Q1] bsds_real_0 0.002 1.0 -64636.578125 137
+[Q2] bsds_real_0 0.002 actual -37199.6953125 prediction {'gradient': -12826.71875, 'curvature': -5113.625, 'predicted_delta_q_at_1': -15383.53125, 'absolute_error': 21816.1640625}
+[Q1] bsds_real_0 0.2 -1.0 -5027.0625 143
+[Q1] bsds_real_0 0.2 -0.5 -6169.703125 149
+[Q1] bsds_real_0 0.2 -0.25 -6693.640625 155
+[Q1] bsds_real_0 0.2 0.0 -7215.359375 161
+[Q1] bsds_real_0 0.2 0.25 -7744.3828125 167
+[Q1] bsds_real_0 0.2 0.5 -8226.515625 173
+[Q1] bsds_real_0 0.2 1.0 -8828.7734375 179
+[Q2] bsds_real_0 0.2 actual -1613.4140625 prediction {'gradient': -2056.8125, 'curvature': 138.0, 'predicted_delta_q_at_1': -1987.8125, 'absolute_error': -374.3984375}
+[saved] local_quadratic.json

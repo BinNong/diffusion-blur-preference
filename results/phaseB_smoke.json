@@ -1,0 +1,100 @@
+{
+ "cfg": {
+  "nimg": 2,
+  "families": [
+   "gaussian"
+  ],
+  "ckpt": "edm-ffhq-64x64-uncond-vp.pkl",
+  "seed": 0,
+  "levels": [
+   0.0,
+   0.5,
+   1.0,
+   2.0
+  ]
+ },
+ "records": [
+  {
+   "img": 0,
+   "family": "gaussian",
+   "param": "sigma",
+   "theta": 0.0,
+   "nll": -33572.75,
+   "sec": 6.74
+  },
+  {
+   "img": 0,
+   "family": "gaussian",
+   "param": "sigma",
+   "theta": 0.5,
+   "nll": -37926.625,
+   "sec": 7.45
+  },
+  {
+   "img": 0,
+   "family": "gaussian",
+   "param": "sigma",
+   "theta": 1.0,
+   "nll": -55198.7109375,
+   "sec": 7.75
+  },
+  {
+   "img": 0,
+   "family": "gaussian",
+   "param": "sigma",
+   "theta": 2.0,
+   "nll": -72037.5703125,
+   "sec": 8.51
+  },
+  {
+   "img": 1,
+   "family": "gaussian",
+   "param": "sigma",
+   "theta": 0.0,
+   "nll": -42115.421875,
+   "sec": 6.67
+  },
+  {
+   "img": 1,
+   "family": "gaussian",
+   "param": "sigma",
+   "theta": 0.5,
+   "nll": -46182.7265625,
+   "sec": 7.46
+  },
+  {
+   "img": 1,
+   "family": "gaussian",
+   "param": "sigma",
+   "theta": 1.0,
+   "nll": -61470.1796875,
+   "sec": 8.5
+  },
+  {
+   "img": 1,
+   "family": "gaussian",
+   "param": "sigma",
+   "theta": 2.0,
+   "nll": -75370.3359375,
+   "sec": 10.34
+  }
+ ],
+ "summary": {
+  "gaussian": {
+   "thetas": [
+    0.0,
+    0.5,
+    1.0,
+    2.0
+   ],
+   "nll_img0": [
+    -33572.75,
+    -37926.625,
+    -55198.7109375,
+    -72037.5703125
+   ],
+   "delta": -38464.8203,
+   "monotone_decreasing": true
+  }
+ }
+}

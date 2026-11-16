@@ -1,0 +1,25 @@
+########## 2026-11-09 09:03:18 +0800 judge start ##########
+================================================================================================
+ 第十九组：过模糊机理的独立复现（预官 2026-11-08 16:41:32 +0800）
+================================================================================================
+  O0 (a) 恒等式 max|L-(data+q)| = 0.000e+00
+  O0 (b) 核守卫 = True   (c) 图池独立 = True (offset=20)   (d) 网格一致 = True
+  => O0 PASS
+
+Traceback (most recent call last):
+  File "/data/experiment/de_conv_1/repro/judge_overblur_indep.py", line 300, in <module>
+    main()
+  File "/data/experiment/de_conv_1/repro/judge_overblur_indep.py", line 210, in main
+    base, se = baseline_se(brecs, ths, sns, bimgs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/experiment/de_conv_1/repro/judge_overblur_indep.py", line 155, in baseline_se
+    base = stats_for(q, imgs, sns)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/experiment/de_conv_1/repro/judge_overblur_indep.py", line 142, in stats_for
+    dd = [mean(q[(i, s)][0] for i in idx) for s in sns]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/experiment/de_conv_1/repro/judge_overblur_indep.py", line 111, in mean
+    return sum(v) / len(v) if v else float("nan")
+                    ^^^^^^
+TypeError: object of type 'generator' has no len()
+########## 2026-11-09 09:03:18 +0800 judge exit=1 ##########

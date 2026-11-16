@@ -1,0 +1,64 @@
+Sucessfully loaded the model edm-afhqv2-64x64-uncond-vp.pkl
+Number of parameters:  61805571
+[cfg] ckpt=edm-afhqv2-64x64-uncond-vp.pkl n=256 seed=0
+Traceback (most recent call last):
+  File "/data/experiment/de_conv_1/repro/make_pool.py", line 85, in <module>
+    main()
+  File "/data/experiment/de_conv_1/repro/make_pool.py", line 57, in main
+    pool, _ = ode_sampler(ode_flow, shape=(args.n, 3, H, W), t_spans=t_spans,
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/experiment/de_conv_1/code/blind_deblur_diffusion/edm/prior.py", line 156, in ode_sampler
+    solution = integrate.solve_ivp(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/data/experiment/de_conv_1/venv2/lib/python3.12/site-packages/scipy/integrate/_ivp/ivp.py", line 623, in solve_ivp
+    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/experiment/de_conv_1/venv2/lib/python3.12/site-packages/scipy/integrate/_ivp/rk.py", line 94, in __init__
+    self.f = self.fun(self.t, self.y)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/experiment/de_conv_1/venv2/lib/python3.12/site-packages/scipy/integrate/_ivp/base.py", line 158, in fun
+    return self.fun_single(t, y)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/experiment/de_conv_1/venv2/lib/python3.12/site-packages/scipy/integrate/_ivp/base.py", line 24, in fun_wrapped
+    return np.asarray(fun(t, y), dtype=dtype)
+                      ^^^^^^^^^
+  File "/data/experiment/de_conv_1/code/blind_deblur_diffusion/edm/prior.py", line 147, in ode_func
+    drift = ode_flow(
+            ^^^^^^^^^
+  File "/data/experiment/de_conv_1/code/blind_deblur_diffusion/edm/prior.py", line 39, in ode_flow
+    ) * sigma_fn(t) * prior.score(x / s_fn(t), sigma_fn(t), *args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/experiment/de_conv_1/code/blind_deblur_diffusion/edm/prior.py", line 22, in score
+    self.denoiser(x, sigma_denoiser, *args, **kwargs) - x
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/experiment/de_conv_1/repro/make_pool.py", line 53, in <lambda>
+    prior = ScorePrior(denoiser=lambda x, t, *a, **k: model(x.to(DT), t, *a, **k))
+                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/experiment/de_conv_1/venv2/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/experiment/de_conv_1/venv2/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/experiment/de_conv_1/code/blind_deblur_diffusion/edm/__init__.py", line 17, in forward
+    return self.edm_model.forward(x, sigma=t, class_labels=class_labels)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 665, in forward
+  File "/data/experiment/de_conv_1/venv2/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/experiment/de_conv_1/venv2/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 345, in forward
+  File "/data/experiment/de_conv_1/venv2/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/experiment/de_conv_1/venv2/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 175, in forward
+  File "/data/experiment/de_conv_1/venv2/lib/python3.12/site-packages/torch/nn/functional.py", line 2380, in silu
+    return torch._C._nn.silu(input)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 512.00 MiB. GPU 0 has a total capacity of 7.62 GiB of which 29.38 MiB is free. Process 1189661 has 4.18 GiB memory in use. Process 1189733 has 922.00 MiB memory in use. Including non-PyTorch memory, this process has 2.45 GiB memory in use. Of the allocated memory 2.30 GiB is allocated by PyTorch, and 29.91 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

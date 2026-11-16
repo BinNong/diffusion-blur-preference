@@ -1,0 +1,93 @@
+{
+  "kind": "post-hoc diagnostic, no pre-registration, no thresholds, not a paper claim",
+  "source": "phaseC_pool20.json",
+  "identity_max_abs": 0.0,
+  "tstar": 1.5,
+  "tend": 2.5,
+  "hi_noise": 0.172,
+  "per_sigma": [
+    {
+      "sigma_n": 0.0415,
+      "n": 20,
+      "mean_argmin": 0.71875,
+      "mean_data_at_tstar": 6340.055400634092,
+      "d_data": 5388.131088365368,
+      "d_q": 5170.154296875,
+      "d_L": 10558.285385240368,
+      "mean_abs_dq_over_ddata": 1.1215592105066323,
+      "prior_sign": "penalises over-blur"
+    },
+    {
+      "sigma_n": 0.0845,
+      "n": 20,
+      "mean_argmin": 1.20625,
+      "mean_data_at_tstar": 6315.7792126596905,
+      "d_data": 1688.0452518123213,
+      "d_q": 1218.81796875,
+      "d_L": 2906.8632205623226,
+      "mean_abs_dq_over_ddata": 1.39864818957758,
+      "prior_sign": "penalises over-blur"
+    },
+    {
+      "sigma_n": 0.172,
+      "n": 20,
+      "mean_argmin": 2.08125,
+      "mean_data_at_tstar": 6338.09743151915,
+      "d_data": 609.5245375769921,
+      "d_q": -1828.226171875,
+      "d_L": -1218.7016342980073,
+      "mean_abs_dq_over_ddata": 4.466731471362299,
+      "prior_sign": "rewards over-blur"
+    },
+    {
+      "sigma_n": 0.2455,
+      "n": 20,
+      "mean_argmin": 2.3375,
+      "mean_data_at_tstar": 6315.8947072314395,
+      "d_data": 379.04950834567796,
+      "d_q": -2555.026171875,
+      "d_L": -2175.9766635293217,
+      "mean_abs_dq_over_ddata": 8.6800259031101,
+      "prior_sign": "rewards over-blur"
+    },
+    {
+      "sigma_n": 0.3504,
+      "n": 20,
+      "mean_argmin": 2.3875,
+      "mean_data_at_tstar": 6363.295735287032,
+      "d_data": 260.3325726791512,
+      "d_q": -2311.099609375,
+      "d_L": -2050.767036695849,
+      "mean_abs_dq_over_ddata": 11.520843419867102,
+      "prior_sign": "rewards over-blur"
+    },
+    {
+      "sigma_n": 0.5,
+      "n": 20,
+      "mean_argmin": 2.3875,
+      "mean_data_at_tstar": 6409.628857421875,
+      "d_data": 193.28916015625,
+      "d_q": -2036.849609375,
+      "d_L": -1843.56044921875,
+      "mean_abs_dq_over_ddata": 14.53500373106628,
+      "prior_sign": "rewards over-blur"
+    }
+  ],
+  "decay_exponent_p": 1.354628638555443,
+  "decay_r2": 0.9899050842726047,
+  "sign_prediction": {
+    "hits": 109,
+    "total": 120,
+    "confusion": {
+      "tp": 81,
+      "fp": 1,
+      "tn": 28,
+      "fn": 10
+    }
+  },
+  "counterfactual_data_only": {
+    "over_blur": 2,
+    "total": 120
+  },
+  "prior_sign_first_negative_sigma": 0.172
+}

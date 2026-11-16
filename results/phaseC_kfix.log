@@ -1,0 +1,23 @@
+Sucessfully loaded the model edm-ffhq-64x64-uncond-vp.pkl
+Number of parameters:  61805571
+[N0 核守卫] {"sym_buggy": 0.031587131321430206, "peak_buggy": [6, 6], "sym_correct": 0.0, "peak_correct": [7, 7], "sum_correct": 1.0000001192092896, "bitident_correct": true, "kunif_buggy_15": 0.9677817575127567, "kunif_correct_15": 0.9628544888830968, "sigma_match": {"1.5": 1.6153721963925567, "2.0": 2.1529967049743126, "2.5": 2.6870747163192457}}
+[N0] 错核：不对称 3.159e-02、峰 [6, 6]（应为 [6,6]）；正确核：不对称 0.000e+00、峰 [7, 7]、Σk=1.000000119、与 putils 逐比特相同=True
+[N0] kunif(σ=1.5)：错核 0.967782、正确核 0.962854（预官 0.967782 / 0.962855）；kunif 匹配的正确 σ = {1.5: 1.6153721963925567, 2.0: 2.1529967049743126, 2.5: 2.6870747163192457}
+[N0] ✅ 守卫通过
+[sample] 2 sharp images（与旧跑同 seed 同 shape）
+  [buggy img0 sn=0.01  ] argmin θ=1.25   L(0)=  -57214.2 L(θ*)=  -61763.1 θ=0胜=N  (457s)
+  [buggy img0 sn=0.5   ] argmin θ=2.25   L(0)=  -28779.2 L(θ*)=  -45928.7 θ=0胜=N  (926s)
+  [correct img0 sn=0.0415] argmin θ=1.625  L(0)=  -52941.0 L(θ*)=  -53592.8 θ=0胜=N  (1399s)
+  [correct img0 sn=0.0845] argmin θ=1.625  L(0)=  -46791.9 L(θ*)=  -50583.5 θ=0胜=N  (1854s)
+  [correct img0 sn=0.172 ] argmin θ=2.125  L(0)=  -35092.0 L(θ*)=  -46926.4 θ=0胜=N  (2299s)
+  [correct img0 sn=0.2455] argmin θ=2.5    L(0)=  -30282.2 L(θ*)=  -46127.9 θ=0胜=N  (2767s)
+  [correct img0 sn=0.3504] argmin θ=2.125  L(0)=  -27174.6 L(θ*)=  -45254.7 θ=0胜=N  (3222s)
+  [correct img0 sn=0.5   ] argmin θ=2.125  L(0)=  -27753.6 L(θ*)=  -45396.5 θ=0胜=N  (3687s)
+  [correct img1 sn=0.0415] argmin θ=1.5    L(0)=  -52343.4 L(θ*)=  -55220.8 θ=0胜=N  (4151s)
+  [correct img1 sn=0.0845] argmin θ=1.5    L(0)=  -43055.6 L(θ*)=  -53327.5 θ=0胜=N  (4602s)
+  [correct img1 sn=0.172 ] argmin θ=2.125  L(0)=  -30648.8 L(θ*)=  -49835.3 θ=0胜=N  (5049s)
+  [correct img1 sn=0.2455] argmin θ=2.0    L(0)=  -26560.9 L(θ*)=  -48711.7 θ=0胜=N  (5470s)
+  [correct img1 sn=0.3504] argmin θ=2.375  L(0)=  -24938.2 L(θ*)=  -47333.7 θ=0胜=N  (5912s)
+  [correct img1 sn=0.5   ] argmin θ=2.5    L(0)=  -26284.5 L(θ*)=  -47776.3 θ=0胜=N  (6399s)
+
+[saved] /data/experiment/de_conv_1/results/phaseC_kfix.json   总耗时 6399s

@@ -1,0 +1,27 @@
+Sucessfully loaded the model edm-ffhq-64x64-uncond-vp.pkl
+Number of parameters:  61805571
+载入 3 张池图；σ_n ∈ [0.01, 0.02, 0.05, 0.1, 0.2]；θ* ∈ {1.5, 0}；n_inner=240
+  [img0 σ=0.01  blur ] Λ=  +2645.1 Λ_clean= +23007.1 data=  5977.1 E_y=   -8622.2  E_hqs=  -23807.7  gap= -15185.6
+  [img0 σ=0.01  sharp] Λ=  -4287.2 Λ_clean= +23007.1 data=  5977.1 E_y=   -1689.9
+  [img0 σ=0.02  blur ] Λ=  -3461.9 Λ_clean= +15632.2 data=  5977.1 E_y=   -2515.2  E_hqs=  -16555.1  gap= -14039.9
+  [img0 σ=0.02  sharp] Λ=  -7214.6 Λ_clean= +15632.2 data=  5977.1 E_y=   +1237.5
+  [img0 σ=0.05  blur ] Λ=  -8237.1 Λ_clean=  +5173.6 data=  5977.1 E_y=   +2260.0  E_hqs=   -5819.1  gap=  -8079.1
+  [img0 σ=0.05  sharp] Λ=  -9871.2 Λ_clean=  +5173.6 data=  5977.1 E_y=   +3894.1
+  [img0 σ=0.1   blur ] Λ=  -8379.8 Λ_clean=  +1443.6 data=  5977.1 E_y=   +2402.7  E_hqs=   -1952.9  gap=  -4355.6
+  [img0 σ=0.1   sharp] Λ=  -9406.7 Λ_clean=  +1443.6 data=  5977.1 E_y=   +3429.6
+  [img0 σ=0.2   blur ] Λ=  -7377.1 Λ_clean=   +316.7 data=  5977.1 E_y=   +1400.0  E_hqs=    -206.8  gap=  -1606.8
+  [img0 σ=0.2   sharp] Λ=  -7679.3 Λ_clean=   +316.7 data=  5977.1 E_y=   +1702.2
+  [img1 σ=0.01  blur ] Λ=  -4496.1 Λ_clean= +18544.3 data=  6219.3 E_y=   -1723.3  E_hqs=  -19156.4  gap= -17433.1
+  [img1 σ=0.01  sharp] Λ=  -8503.9 Λ_clean= +18544.3 data=  6219.3 E_y=   +2284.6
+  [img1 σ=0.02  blur ] Λ=  -9646.3 Λ_clean=  +9536.4 data=  6219.3 E_y=   +3427.0  E_hqs=  -10061.4  gap= -13488.4
+  [img1 σ=0.02  sharp] Λ= -11880.7 Λ_clean=  +9536.4 data=  6219.3 E_y=   +5661.4
+  [img1 σ=0.05  blur ] Λ= -10997.3 Λ_clean=  +2394.4 data=  6219.3 E_y=   +4778.0  E_hqs=   -2580.7  gap=  -7358.7
+  [img1 σ=0.05  sharp] Λ= -11766.2 Λ_clean=  +2394.4 data=  6219.3 E_y=   +5546.9
+  [img1 σ=0.1   blur ] Λ=  -9586.8 Λ_clean=   +829.3 data=  6219.3 E_y=   +3367.4  E_hqs=    -691.3  gap=  -4058.7
+  [img1 σ=0.1   sharp] Λ=  -9933.2 Λ_clean=   +829.3 data=  6219.3 E_y=   +3713.9
+  [img1 σ=0.2   blur ] Λ=  -8199.4 Λ_clean=   -136.6 data=  6219.3 E_y=   +1980.0  E_hqs=    +645.3  gap=  -1334.8
+  [img1 σ=0.2   sharp] Λ=  -8261.3 Λ_clean=   -136.6 data=  6219.3 E_y=   +2042.0
+  [img2 σ=0.01  blur ] Λ=   -814.4 Λ_clean= +20628.0 data=  6217.7 E_y=   -5403.3  E_hqs=  -21018.3  gap= -15615.0
+  [img2 σ=0.01  sharp] Λ=  -5709.2 Λ_clean= +20628.0 data=  6217.7 E_y=    -508.5
+  [img2 σ=0.02  blur ] Λ=  -5968.8 Λ_clean= +11933.1 data=  6217.7 E_y=    -249.0  E_hqs=  -12752.4  gap= -12503.4
+  [img2 σ=0.02  sharp] Λ=  -9004.1 Λ_clean= +11933.1 data=  6217.7 E_y=   +2786.3

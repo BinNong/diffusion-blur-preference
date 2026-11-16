@@ -1,0 +1,2 @@
+[A2] imagenet128_cond 0 gaussian 1.0 0.2 Lambda -13983.80078125 elapsed 87
+[saved] /data/experiment/de_conv_1/results/smoke_adm_imagenet128_cond_bsds.json rows 1

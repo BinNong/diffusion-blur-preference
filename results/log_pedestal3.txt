@@ -1,0 +1,16 @@
+/data/experiment/de_conv_1/repro/sweep_pedestal3.py:7: SyntaxWarning: invalid escape sequence '\p'
+  (ah) 撤回了我自己在 (ag) 的「$\phi$ 是第二描述量」（同类 $tw_{\rm od}$ 配对在第二个 $u$ 上**反号**），
+[build] PY15m020: phi0=0.15 m=0.20 r1=0.6624 kunif=0.3500 amin=0.1500 amax=1.0000
+[build] PY15m050: phi0=0.15 m=0.50 r1=0.5954 kunif=0.3500 amin=0.1500 amax=1.0000
+[build] PY15m100: phi0=0.15 m=1.00 r1=0.4768 kunif=0.3500 amin=0.1500 amax=1.0000
+[build] PY15m200: phi0=0.15 m=2.00 r1=0.2268 kunif=0.3500 amin=0.1500 amax=1.0000
+[cfg] nimg=120 t=0.002 kunif=0.35 4 个算子
+Sucessfully loaded the model edm-ffhq-64x64-uncond-vp.pkl
+Number of parameters:  61805571
+[sharp] t=0.002 n=120 mean log p = 34310.1 (534s)
+  [1/4] PY15m020   knif=0.3500 Lambda=      909+-    66 SNR= 13.8  neg=11/120  L_G=  360.8  (594s)
+  [2/4] PY15m050   knif=0.3500 Lambda=     1699+-    47 SNR= 35.9  neg=1/120  L_G=  360.4  (589s)
+  [3/4] PY15m100   knif=0.3500 Lambda=     2044+-    37 SNR= 55.7  neg=0/120  L_G=  360.3  (562s)
+  [4/4] PY15m200   knif=0.3500 Lambda=     2244+-    30 SNR= 74.1  neg=0/120  L_G=  360.5  (545s)
+
+[saved] /data/experiment/de_conv_1/results/sweep_pedestal3.json   总耗时 2824s

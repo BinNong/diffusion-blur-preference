@@ -1,0 +1,177 @@
+A0/A1 passed 3.98838447606375e-16 0.0
+TABLE [
+  {
+    "t": 0.002,
+    "lambda_measured_unchanged": 31965.828125,
+    "lambda_gauss_retired_rfft_channel_average": 450.1034095626637,
+    "lambda_gauss_full_rgb": 2542.585429395997,
+    "ratio_full": 12.572174667339942
+  },
+  {
+    "t": 0.005,
+    "lambda_measured_unchanged": 26559.546875,
+    "lambda_gauss_retired_rfft_channel_average": 447.60550593295966,
+    "lambda_gauss_full_rgb": 2528.687814907743,
+    "ratio_full": 10.503292149556628
+  },
+  {
+    "t": 0.01,
+    "lambda_measured_unchanged": 21146.5234375,
+    "lambda_gauss_retired_rfft_channel_average": 439.3670379087075,
+    "lambda_gauss_full_rgb": 2482.828349611178,
+    "ratio_full": 8.517110512618256
+  },
+  {
+    "t": 0.02,
+    "lambda_measured_unchanged": 12271.578125,
+    "lambda_gauss_retired_rfft_channel_average": 413.54227488748234,
+    "lambda_gauss_full_rgb": 2338.926849295981,
+    "ratio_full": 5.246670338875179
+  },
+  {
+    "t": 0.05,
+    "lambda_measured_unchanged": 3424.7421875,
+    "lambda_gauss_retired_rfft_channel_average": 327.78812657123353,
+    "lambda_gauss_full_rgb": 1859.9290853220757,
+    "ratio_full": 1.8413294434324912
+  },
+  {
+    "t": 0.1,
+    "lambda_measured_unchanged": 916.4765625,
+    "lambda_gauss_retired_rfft_channel_average": 227.00686083480946,
+    "lambda_gauss_full_rgb": 1292.5117471162075,
+    "ratio_full": 0.7090663311531211
+  },
+  {
+    "t": 0.2,
+    "lambda_measured_unchanged": 162.15625,
+    "lambda_gauss_retired_rfft_channel_average": 127.11899382509023,
+    "lambda_gauss_full_rgb": 724.9591818615852,
+    "ratio_full": 0.2236763862809591
+  }
+]
+SPECTRAL {
+  "overall": {
+    "n": 851,
+    "median": 1.002162691318864,
+    "p95": 4.570223237551531,
+    "max": 11.609259480778498
+  },
+  "by_t": {
+    "0.002": {
+      "n": 431,
+      "median": 0.7892775862823825,
+      "p95": 1.156022889070146,
+      "max": 3.5730283401360303
+    },
+    "0.005": {
+      "n": 60,
+      "median": 1.0048043341846498,
+      "p95": 1.2116183493232742,
+      "max": 1.2725079098676793
+    },
+    "0.01": {
+      "n": 60,
+      "median": 1.0593770788864854,
+      "p95": 1.287909118399039,
+      "max": 1.3223556612218865
+    },
+    "0.02": {
+      "n": 60,
+      "median": 1.2488336126963264,
+      "p95": 1.455854058888416,
+      "max": 1.4730852540658295
+    },
+    "0.05": {
+      "n": 60,
+      "median": 2.190595952807856,
+      "p95": 2.4637842047949143,
+      "max": 2.511340174815053
+    },
+    "0.08": {
+      "n": 60,
+      "median": 2.9022286785041276,
+      "p95": 3.3669427619053884,
+      "max": 3.410705304373647
+    },
+    "0.12": {
+      "n": 60,
+      "median": 3.7618484819326596,
+      "p95": 4.738991990852486,
+      "max": 4.782962909995663
+    },
+    "0.16": {
+      "n": 60,
+      "median": 4.867627893314184,
+      "p95": 7.929537352333427,
+      "max": 11.609259480778498
+    }
+  },
+  "position": [
+    {
+      "K": 0.2,
+      "gauss_relative_spread": 0.006841511247730914,
+      "lambda_relative_spread": 1.2272712801383983
+    },
+    {
+      "K": 0.4,
+      "gauss_relative_spread": 0.01610260782366879,
+      "lambda_relative_spread": 1.328325729785337
+    },
+    {
+      "K": 0.6,
+      "gauss_relative_spread": 0.007683577636791061,
+      "lambda_relative_spread": 2.2743731795126774
+    },
+    {
+      "K": 0.8,
+      "gauss_relative_spread": 0.007347564321712907,
+      "lambda_relative_spread": 0.401244430588014
+    }
+  ],
+  "caps": {
+    "0:20": 6296.168469411141,
+    "20:40": 6215.202273587038
+  }
+}
+CORRECTION {
+  "main": {
+    "source": "phaseC_pool20.json",
+    "observed": {
+      "n": 80,
+      "baseline_overblur": 0.9875,
+      "corrected_overblur": 0.975,
+      "baseline_mean_error": 0.5322916666666666,
+      "corrected_mean_error": 0.5364583333333333,
+      "mean_error_difference": 0.004166666666666667,
+      "n_changed_argmins": 3
+    },
+    "error_difference_cluster_95_interval": {
+      "method": "post-hoc percentile bootstrap over whole-image clusters",
+      "low": -0.0041666666666666675,
+      "high": 0.018749999999999996
+    },
+    "mean_bias_at_truth": 1172.9005533506083,
+    "mean_bias_at_baseline": 1266.7355176820358
+  },
+  "disjoint": {
+    "source": "overblur_indep.json",
+    "observed": {
+      "n": 80,
+      "baseline_overblur": 1.0,
+      "corrected_overblur": 1.0,
+      "baseline_mean_error": 0.5614583333333334,
+      "corrected_mean_error": 0.553125,
+      "mean_error_difference": -0.008333333333333335,
+      "n_changed_argmins": 3
+    },
+    "error_difference_cluster_95_interval": {
+      "method": "post-hoc percentile bootstrap over whole-image clusters",
+      "low": -0.017708333333333336,
+      "high": 0.0
+    },
+    "mean_bias_at_truth": 1172.9005533506083,
+    "mean_bias_at_baseline": 1271.076672714937
+  }
+}
+[saved] fullfft_reference_audit.json and blur_correction_fullfft.json

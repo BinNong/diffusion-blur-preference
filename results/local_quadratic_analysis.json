@@ -1,0 +1,74 @@
+{
+ "source": "local_quadratic.json",
+ "scope": "single directional Taylor test per source/t",
+ "rows": [
+  {
+   "source": "edm_generated_255",
+   "t": 0.002,
+   "actual_delta_q": -32048.7109375,
+   "predictions": {
+    "0.25": {
+     "predicted_delta_q": -12246.53125,
+     "signed_error": 19802.1796875,
+     "absolute_error": 19802.1796875
+    },
+    "0.5": {
+     "predicted_delta_q": -15225.65625,
+     "signed_error": 16823.0546875,
+     "absolute_error": 16823.0546875
+    }
+   }
+  },
+  {
+   "source": "edm_generated_255",
+   "t": 0.2,
+   "actual_delta_q": -206.10546875,
+   "predictions": {
+    "0.25": {
+     "predicted_delta_q": 98.265625,
+     "signed_error": 304.37109375,
+     "absolute_error": 304.37109375
+    },
+    "0.5": {
+     "predicted_delta_q": -28.3515625,
+     "signed_error": 177.75390625,
+     "absolute_error": 177.75390625
+    }
+   }
+  },
+  {
+   "source": "bsds_real_0",
+   "t": 0.002,
+   "actual_delta_q": -37199.6953125,
+   "predictions": {
+    "0.25": {
+     "predicted_delta_q": -12723.40625,
+     "signed_error": 24476.2890625,
+     "absolute_error": 24476.2890625
+    },
+    "0.5": {
+     "predicted_delta_q": -15383.53125,
+     "signed_error": 21816.1640625,
+     "absolute_error": 21816.1640625
+    }
+   }
+  },
+  {
+   "source": "bsds_real_0",
+   "t": 0.2,
+   "actual_delta_q": -1613.4140625,
+   "predictions": {
+    "0.25": {
+     "predicted_delta_q": -2159.921875,
+     "signed_error": -546.5078125,
+     "absolute_error": 546.5078125
+    },
+    "0.5": {
+     "predicted_delta_q": -1987.8125,
+     "signed_error": -374.3984375,
+     "absolute_error": 374.3984375
+    }
+   }
+  }
+ ]
+}

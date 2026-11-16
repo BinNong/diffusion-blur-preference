@@ -1,0 +1,51 @@
+Sucessfully loaded the model edm-ffhq-64x64-uncond-vp.pkl
+Number of parameters:  61805571
+[M1] real 0 0.172 0 / 42 elapsed 75
+[M1] real 0 0.172 4 / 42 elapsed 149
+[M1] real 0 0.172 8 / 42 elapsed 225
+[M1] real 0 0.172 12 / 42 elapsed 300
+[M1] real 0 0.172 16 / 42 elapsed 376
+[M1] real 0 0.172 20 / 42 elapsed 451
+[M1] real 0 0.172 24 / 42 elapsed 527
+[M1] real 0 0.172 28 / 42 elapsed 603
+[M1] real 0 0.172 32 / 42 elapsed 678
+[M1] real 0 0.172 36 / 42 elapsed 754
+[M1] real 0 0.172 40 / 42 elapsed 792
+[M2] real 0 0.172 argmin 0.0 gradient_check {'theta': 0.0, 'start': 'y', 'perturbation_rms': 0.003, 'score_predicted_derivative_per_rms': -51968.91015625, 'ode_central_difference_per_rms': -55061.116536458336, 'difference': -3092.2063802083358} elapsed 803
+[M1] real 0 0.5 0 / 42 elapsed 872
+[M1] real 0 0.5 4 / 42 elapsed 942
+[M1] real 0 0.5 8 / 42 elapsed 1011
+[M1] real 0 0.5 12 / 42 elapsed 1081
+[M1] real 0 0.5 16 / 42 elapsed 1150
+[M1] real 0 0.5 20 / 42 elapsed 1220
+[M1] real 0 0.5 24 / 42 elapsed 1289
+[M1] real 0 0.5 28 / 42 elapsed 1359
+[M1] real 0 0.5 32 / 42 elapsed 1428
+[M1] real 0 0.5 36 / 42 elapsed 1498
+[M1] real 0 0.5 40 / 42 elapsed 1533
+[M2] real 0 0.5 argmin 0.375 gradient_check {'theta': 0.0, 'start': 'y', 'perturbation_rms': 0.003, 'score_predicted_derivative_per_rms': -19857.724609375, 'ode_central_difference_per_rms': -19814.778645833332, 'difference': 42.94596354166788} elapsed 1542
+[M1] real 1 0.172 0 / 42 elapsed 1620
+[M1] real 1 0.172 4 / 42 elapsed 1698
+[M1] real 1 0.172 8 / 42 elapsed 1776
+[M1] real 1 0.172 12 / 42 elapsed 1854
+[M1] real 1 0.172 16 / 42 elapsed 1931
+[M1] real 1 0.172 20 / 42 elapsed 2009
+[M1] real 1 0.172 24 / 42 elapsed 2087
+[M1] real 1 0.172 28 / 42 elapsed 2165
+[M1] real 1 0.172 32 / 42 elapsed 2243
+[M1] real 1 0.172 36 / 42 elapsed 2320
+[M1] real 1 0.172 40 / 42 elapsed 2359
+[M2] real 1 0.172 argmin 0.0 gradient_check {'theta': 0.0, 'start': 'y', 'perturbation_rms': 0.003, 'score_predicted_derivative_per_rms': -153518.0, 'ode_central_difference_per_rms': -158537.109375, 'difference': -5019.109375} elapsed 2371
+[M1] real 1 0.5 0 / 42 elapsed 2442
+[M1] real 1 0.5 4 / 42 elapsed 2513
+[M1] real 1 0.5 8 / 42 elapsed 2586
+[M1] real 1 0.5 12 / 42 elapsed 2659
+[M1] real 1 0.5 16 / 42 elapsed 2731
+[M1] real 1 0.5 20 / 42 elapsed 2803
+[M1] real 1 0.5 24 / 42 elapsed 2875
+[M1] real 1 0.5 28 / 42 elapsed 2947
+[M1] real 1 0.5 32 / 42 elapsed 3019
+[M1] real 1 0.5 36 / 42 elapsed 3090
+[M1] real 1 0.5 40 / 42 elapsed 3126
+[M2] real 1 0.5 argmin 0.375 gradient_check {'theta': 0.0, 'start': 'y', 'perturbation_rms': 0.003, 'score_predicted_derivative_per_rms': -32308.212890625, 'ode_central_difference_per_rms': -32281.901041666664, 'difference': 26.31184895833576} elapsed 3136
+[saved] /data/experiment/de_conv_1/results/score_profile_real.json records 4

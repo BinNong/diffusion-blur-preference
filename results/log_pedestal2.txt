@@ -1,0 +1,32 @@
+/data/experiment/de_conv_1/repro/sweep_pedestal2.py:79: SyntaxWarning: invalid escape sequence '\D'
+  用两对**tw_od 匹配到 1% 以内**的配对报 $\Delta\log_{10}C = \log_{10}C(\phi)-\log_{10}C(0)$：
+[build] PX30m015: phi0=0.30 m=0.15 r1=0.8043 kunif=0.3500 amin=0.3000 amax=1.0000
+[build] PX25m015: phi0=0.25 m=0.15 r1=0.7393 kunif=0.3500 amin=0.2500 amax=1.0000
+[build] PX20m015: phi0=0.20 m=0.15 r1=0.7019 kunif=0.3500 amin=0.2000 amax=1.0000
+[build] PX30m020: phi0=0.30 m=0.20 r1=0.7983 kunif=0.3500 amin=0.3000 amax=1.0000
+[build] PX25m030: phi0=0.25 m=0.30 r1=0.7163 kunif=0.3500 amin=0.2500 amax=1.0000
+[build] PX20m030: phi0=0.20 m=0.30 r1=0.6745 kunif=0.3500 amin=0.2000 amax=1.0000
+[build] PX15m020: phi0=0.15 m=0.20 r1=0.6624 kunif=0.3500 amin=0.1500 amax=1.0000
+[build] PX15m100: phi0=0.15 m=1.00 r1=0.4768 kunif=0.3500 amin=0.1500 amax=1.0000
+[build] PX10m200: phi0=0.10 m=2.00 r1=0.1345 kunif=0.3500 amin=0.1000 amax=1.0000
+[build] PX15m200: phi0=0.15 m=2.00 r1=0.2268 kunif=0.3500 amin=0.1500 amax=1.0000
+[build] PX00m100: phi0=0.00 m=1.00 r1=0.3245 kunif=0.3500 amin=0.0000 amax=1.0000
+[build] PX00m070: phi0=0.00 m=0.70 r1=0.4265 kunif=0.3500 amin=0.0000 amax=1.0000
+[cfg] nimg=20 t=0.002 kunif=0.35 12 个算子
+Sucessfully loaded the model edm-ffhq-64x64-uncond-vp.pkl
+Number of parameters:  61805571
+[sharp] t=0.002 mean log p = 34838.7 (89s)
+  [1/12] PX30m015   knif=0.3500 Lambda=     1983+-   107 SNR= 18.5  L_G=  381.1  (93s)
+  [2/12] PX25m015   knif=0.3500 Lambda=     1666+-   107 SNR= 15.6  L_G=  382.3  (93s)
+  [3/12] PX20m015   knif=0.3500 Lambda=     1012+-   153 SNR=  6.6  L_G=  382.8  (91s)
+  [4/12] PX30m020   knif=0.3500 Lambda=     2010+-    91 SNR= 22.0  L_G=  380.8  (91s)
+  [5/12] PX25m030   knif=0.3500 Lambda=     1788+-   109 SNR= 16.4  L_G=  382.0  (91s)
+  [6/12] PX20m030   knif=0.3500 Lambda=     1314+-   140 SNR=  9.4  L_G=  382.5  (93s)
+  [7/12] PX15m020   knif=0.3500 Lambda=      687+-   186 SNR=  3.7  L_G=  383.1  (97s)
+  [8/12] PX15m100   knif=0.3500 Lambda=     1967+-    92 SNR= 21.4  L_G=  380.7  (94s)
+  [9/12] PX10m200   knif=0.3500 Lambda=     2165+-    78 SNR= 27.8  L_G=  380.0  (91s)
+  [10/12] PX15m200   knif=0.3500 Lambda=     2202+-    74 SNR= 29.6  L_G=  380.2  (91s)
+  [11/12] PX00m100   knif=0.3500 Lambda=     2060+-    93 SNR= 22.2  L_G=  379.7  (91s)
+  [12/12] PX00m070   knif=0.3500 Lambda=     1971+-   120 SNR= 16.4  L_G=  380.0  (92s)
+
+[saved] /data/experiment/de_conv_1/results/sweep_pedestal2.json   总耗时 1193s

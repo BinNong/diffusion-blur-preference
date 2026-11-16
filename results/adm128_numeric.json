@@ -1,0 +1,35 @@
+{
+ "cfg": {
+  "model_name": "imagenet128_cond",
+  "checkpoint": "adm_imagenet128_cond_128x128_diffusion.pt",
+  "steps": 1000,
+  "schedule": "linear",
+  "class_conditional": true,
+  "fixed_label": 0,
+  "surrogate": "log-linear continuous VP-ODE",
+  "min_sigma": 0.01,
+  "max_sigma": 0.99997982064757,
+  "source_default": "adm_imagenet128_cond_bsds.json",
+  "analysis_status": "diagnostic DOP853 confirmation"
+ },
+ "rows": [
+  {
+   "sigma": 0.05,
+   "q_sharp": -92763.8125,
+   "q_blur": -134087.0625,
+   "lambda": 41323.25,
+   "default_lambda": 41597.0,
+   "default_minus_dop853": 273.75,
+   "elapsed": 8398.6541929245
+  },
+  {
+   "sigma": 0.2,
+   "q_sharp": -30715.46484375,
+   "q_blur": -16682.2890625,
+   "lambda": -14033.17578125,
+   "default_lambda": -14084.171875,
+   "default_minus_dop853": -50.99609375,
+   "elapsed": 16981.263370275497
+  }
+ ]
+}

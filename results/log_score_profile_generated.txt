@@ -1,0 +1,51 @@
+Sucessfully loaded the model edm-ffhq-64x64-uncond-vp.pkl
+Number of parameters:  61805571
+[M1] generated 0 0.172 0 / 42 elapsed 76
+[M1] generated 0 0.172 4 / 42 elapsed 151
+[M1] generated 0 0.172 8 / 42 elapsed 228
+[M1] generated 0 0.172 12 / 42 elapsed 304
+[M1] generated 0 0.172 16 / 42 elapsed 380
+[M1] generated 0 0.172 20 / 42 elapsed 456
+[M1] generated 0 0.172 24 / 42 elapsed 533
+[M1] generated 0 0.172 28 / 42 elapsed 609
+[M1] generated 0 0.172 32 / 42 elapsed 686
+[M1] generated 0 0.172 36 / 42 elapsed 763
+[M1] generated 0 0.172 40 / 42 elapsed 801
+[M2] generated 0 0.172 argmin 0.125 gradient_check {'theta': 0.0, 'start': 'y', 'perturbation_rms': 0.003, 'score_predicted_derivative_per_rms': -153621.0, 'ode_central_difference_per_rms': -159975.26041666666, 'difference': -6354.260416666657} elapsed 812
+[M1] generated 0 0.5 0 / 42 elapsed 882
+[M1] generated 0 0.5 4 / 42 elapsed 952
+[M1] generated 0 0.5 8 / 42 elapsed 1021
+[M1] generated 0 0.5 12 / 42 elapsed 1091
+[M1] generated 0 0.5 16 / 42 elapsed 1161
+[M1] generated 0 0.5 20 / 42 elapsed 1231
+[M1] generated 0 0.5 24 / 42 elapsed 1300
+[M1] generated 0 0.5 28 / 42 elapsed 1370
+[M1] generated 0 0.5 32 / 42 elapsed 1440
+[M1] generated 0 0.5 36 / 42 elapsed 1509
+[M1] generated 0 0.5 40 / 42 elapsed 1544
+[M2] generated 0 0.5 argmin 0.375 gradient_check {'theta': 0.0, 'start': 'y', 'perturbation_rms': 0.003, 'score_predicted_derivative_per_rms': -32088.560546875, 'ode_central_difference_per_rms': -32148.111979166664, 'difference': -59.55143229166424} elapsed 1554
+[M1] generated 1 0.172 0 / 42 elapsed 1630
+[M1] generated 1 0.172 4 / 42 elapsed 1706
+[M1] generated 1 0.172 8 / 42 elapsed 1783
+[M1] generated 1 0.172 12 / 42 elapsed 1860
+[M1] generated 1 0.172 16 / 42 elapsed 1936
+[M1] generated 1 0.172 20 / 42 elapsed 2014
+[M1] generated 1 0.172 24 / 42 elapsed 2091
+[M1] generated 1 0.172 28 / 42 elapsed 2167
+[M1] generated 1 0.172 32 / 42 elapsed 2244
+[M1] generated 1 0.172 36 / 42 elapsed 2321
+[M1] generated 1 0.172 40 / 42 elapsed 2359
+[M2] generated 1 0.172 argmin 0.0 gradient_check {'theta': 0.0, 'start': 'y', 'perturbation_rms': 0.003, 'score_predicted_derivative_per_rms': -132181.328125, 'ode_central_difference_per_rms': -137467.44791666666, 'difference': -5286.119791666657} elapsed 2371
+[M1] generated 1 0.5 0 / 42 elapsed 2441
+[M1] generated 1 0.5 4 / 42 elapsed 2511
+[M1] generated 1 0.5 8 / 42 elapsed 2582
+[M1] generated 1 0.5 12 / 42 elapsed 2652
+[M1] generated 1 0.5 16 / 42 elapsed 2722
+[M1] generated 1 0.5 20 / 42 elapsed 2793
+[M1] generated 1 0.5 24 / 42 elapsed 2863
+[M1] generated 1 0.5 28 / 42 elapsed 2933
+[M1] generated 1 0.5 32 / 42 elapsed 3004
+[M1] generated 1 0.5 36 / 42 elapsed 3074
+[M1] generated 1 0.5 40 / 42 elapsed 3110
+[M2] generated 1 0.5 argmin 0.375 gradient_check {'theta': 0.0, 'start': 'y', 'perturbation_rms': 0.003, 'score_predicted_derivative_per_rms': -29139.73828125, 'ode_central_difference_per_rms': -28900.146484375, 'difference': 239.591796875} elapsed 3119
+[saved] /data/experiment/de_conv_1/results/score_profile_generated.json records 4

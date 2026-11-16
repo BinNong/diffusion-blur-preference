@@ -1,0 +1,50 @@
+{
+ "cfg": {
+  "model_name": "imagenet128_cond",
+  "checkpoint": "adm_imagenet128_cond_128x128_diffusion.pt",
+  "steps": 1000,
+  "schedule": "linear",
+  "class_conditional": true,
+  "fixed_label": 0,
+  "surrogate": "log-linear continuous VP-ODE",
+  "min_sigma": 0.01,
+  "max_sigma": 0.99997982064757,
+  "analytic_guard": {
+   "numerical": 11.453198432922363,
+   "exact": 11.453386306762695,
+   "absolute_error": 0.00018787384033203125
+  },
+  "pool": "BSDS300 official test",
+  "generated": false,
+  "nimg": 1,
+  "image_size": 128,
+  "operators": [
+   [
+    "gaussian",
+    1.0
+   ]
+  ],
+  "target_sigmas": [
+   0.2
+  ],
+  "rtol": 1e-05,
+  "atol": 1e-05,
+  "solver": "RK45",
+  "preregistered": "2026-11-11",
+  "smoke": true
+ },
+ "rows": [
+  {
+   "img": 0,
+   "family": "gaussian",
+   "theta": 1.0,
+   "sigma": 0.2,
+   "tau": 58.64610649825095,
+   "u_rfft": 0.08054004600668484,
+   "u_full": 0.07959393469554152,
+   "lambda": -13983.80078125,
+   "q_sharp": -30690.01953125,
+   "q_blur": -16706.21875
+  }
+ ]
+}
