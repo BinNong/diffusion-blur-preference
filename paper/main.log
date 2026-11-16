@@ -894,32 +894,7 @@ LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
 LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
 (Font)              using `TU/ptm/bx/n' instead on input line 1259.
 
-[14]
-Underfull \hbox (badness 1895) in paragraph at lines 1292--1307
-\TU/pcr/m/n/10 criteria recorded before the corresponding runs, of-
- []
-
-
-Underfull \hbox (badness 1803) in paragraph at lines 1292--1307
-\TU/pcr/m/n/10 fline judges, raw JSON results, figure scripts, and
- []
-
-
-Underfull \hbox (badness 8132) in paragraph at lines 1292--1307
-\TU/pcr/m/n/10 It includes the full-FFT audit, ADM VP-ODE
- []
-
-
-Underfull \hbox (badness 1968) in paragraph at lines 1292--1307
-\TU/pcr/m/n/10 adapter, direct score optimiser, saved endpoint im-
- []
-
-
-Underfull \hbox (badness 2653) in paragraph at lines 1292--1307
-\TU/pcr/m/n/10 yses are labelled separately. The public repository
- []
-
-(main.bbl [15]
+[14] (main.bbl [15]
 Underfull \hbox (badness 10000) in paragraph at lines 213--218
 []$[][][][][] [] [] [] [][][][][][][][][][][] [] [][][][] [] [][] [] [][][][][]
  [] [][][][][] [] [][][][][] [] [][][][] [] [][][][] []
@@ -940,4 +915,4 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 8017867777201FDF3D6B0EB8D9AEA93C;4031.
  )
-Output written on main.xdv (16 pages, 823948 bytes).
+Output written on main.xdv (16 pages, 824404 bytes).
